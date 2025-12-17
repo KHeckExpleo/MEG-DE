@@ -1,0 +1,21 @@
+const { app, BrowserWindow } = require('electron');
+const path = require('path');
+
+function createWindow() {
+  const mainWindow = new BrowserWindow({
+    width: 1200,
+    height: 800,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    }
+  });
+
+  mainWindow.loadFile('Expleo_MEG_index.html');
+  
+  // Comentează linia următoare pentru versiunea finală
+  // mainWindow.webContents.openDevTools();
+}
+
+app.whenReady().then(createWindow);
+app.on('window-all-closed', () => app.quit());
