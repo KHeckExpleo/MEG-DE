@@ -1,6 +1,6 @@
 {
   "build": {
-    "publish": ["never"]  // oder einfach "publish": null
+    "publish": ["never"],  // oder einfach "publish": null
   }
 },
 {
