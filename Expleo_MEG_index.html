@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTQB Mock Exam Generator</title>
+	<link rel="stylesheet" href="Expleo_MEG_style.css">
+</head>
+<body>
+	<div class="exam-container">
+        <header>
+            <div class="header-left">
+                <img class="header-logo" src="./pictures/expleo.png" alt="Expleo">
+                <div class="header-titles">
+                <h1><span id="headerId"></span></h1>
+                <h2><span id="sub-header"></span></h2>
+				<div class="lo-filter" style="margin: 12px 0 20px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+				  <label for="lo-select" style="font-weight:600;" id="learningObjective">Learning Objective:</label>
+				  <select id="lo-select" style="padding:8px 10px; border:1px solid #ccc; border-radius:6px; max-width:480px;">
+					<option value="ALL" selected>All LO</option>
+				  </select>
+				  <span id="lo-count" style="font-size:0.95em; color:#555;"></span>
+				</div>	
+                </div>
+			</div>
+            <div class="header-right">
+                <div id="unanswered-container" style="display: none;">
+                    <div class="unanswered-list">
+                        <h3><span id="not-answered-questions"></span></h3>
+                        <div id="unanswered-questions-list"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="exam-info">
+        <!-- // question-count
+                time-limit
+                passing-score 
+           		werden dynamisch gesetzt
+			<div> <span id="passing-score-label"></span><strong><span id="passing-score"></span></strong></div>
+         -->
+            <div><strong id="question-label">Number of Questions:</strong> <span id="question-count">333</span></div>
+			<div><strong id="time-limit-label">Time Limit:</strong> <span id="time-limit">120</span>  <span id="time-unit">minutes</span></div>
+			<div> <strong><span id="passing-score-label"></span></strong></div>
+        </div>
+        
+
+		<div class="top-info-container">
+		  <div class="timer-score-row">
+		    <div class="timer">
+		      <span id="timeRemaining">Verbleibende Zeit:</span>
+		      <span id="timer">120:00</span>
+		    </div>
+		
+		    <div class="dynamic-score">
+		      <div class="current">
+		        <span id="currentScoreLabel">x</span>
+		        <span id="currentScore">0% (0/100)</span>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+            
+		    <!-- // max wird dynamisch gesetzt, satt max="333" -->
+
+			<div class="progress-info">
+			  <span id="question-word">Question</span>
+			  <input type="number" id="current-question-input" class="question-input" min="1" value="1">
+			  <span id="of-word">of</span> <span id="question-count-progress">333</span>
+			</div>
+            <div class="progress-bar">
+                <div class="progress" id="progress-bar"></div>
+            </div>
+        
+		<div class="left-controls">
+            <button type="button" id="prev-btn" disabled>Previous Question</button>
+            <button type="button" id="next-btn">Next Question</button>
+            <button type="button" id="reset-btn">Reset Answers</button>
+            <button type="button" id="submit-exam-btn">Submit Exam</button>
+        </div>
+		
+		<div class="main-content">
+            <form id="exam-form">
+		    	<!-- Container für dynamische Fragen -->
+    			<div id="questions-container"></div>
+                <!-- Questions will be loaded here by questions.js -->
+            </form>
+            
+            <div class="results" id="results">
+                <div class="score" id="score"></div>
+                <div id="answer-feedback"></div>
+                <div class="results-buttons">
+                    <button type="button" id="repeat-exam-btn">Repeat Exam</button>
+                    <button type="button" id="repeat-failed-btn">Repeat Failed Questions</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+<script type="module">
+  import { loadConfig, loadExamData } from './Expleo_MEG_configuration_loader.js';
+  import { buildExplanations } from './Expleo_MEG_explanations.js';
+  import { loadData, initApp } from './Expleo_MEG_scripts.js';
+  import { buildLOSelectBox } from './Expleo_MEG_select_question.js';
+  import { renderQuestions } from './Expleo_MEG_questions.js';
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+//      console.log('Start: zentrale Steuerung');
+      await loadConfig();
+      const data = await loadExamData(); // Hier Daten holen
+      await buildExplanations();
+      await loadData();
+      await buildLOSelectBox();
+      renderQuestions(data);             // Hier Fragen anzeigen
+      initApp();
+//      console.log('Alles geladen!');
+    } catch (error) {
+//      console.error('Fehler in der zentralen Steuerung:', error);
+    }
+  });
+</script>
+	<script Type="Module" src="Expleo_MEG_explanations.js"></script>        <!-- zeigt die Erklärung zur Antwort in der UI an -->
+    <script Type="Module" src="Expleo_MEG_scripts.js"></script>
+    <script Type="Module" src="Expleo_MEG_select_question.js"></script>      <!-- zeigt die ausgewählten fragen zu einem Kapitel in der UI an -->
+    <script Type="Module" src="Expleo_MEG_ui-text_loader.js"></script>           <!-- lädt die ui-texte -->
+    <!-- Scripts
+    <script src="Expleo_Prüfungstrainer_global_scripts.js"></script>
+	 -->
+
+</body>
+</html>

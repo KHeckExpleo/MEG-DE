@@ -1,0 +1,730 @@
+[
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "Describe the AI effect and how it influences the definition of AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q1",
+        "QuestionText": "Which statement BEST describes the AI effect as defined in the CT-AI syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+           "a": "The AI effect states that any AI-based system must use neural networks to be considered true AI.",
+           "b": "The AI effect states that once certain capabilities become common or well-understood, they are often no longer perceived as AI, so the definition of AI changes over time.",
+           "c": "The AI effect states that AI systems will inevitably become super AI once they beat humans at a specific task.",
+           "d": "The AI effect describes the tendency of AI-based systems to function only in narrow domains and never in general domains."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explicitly mentions that earlier systems such as rule-based expert systems and Deep Blue were considered AI although they did not use neural networks or learning. Neural networks are not a mandatory condition for AI [1].",
+          "b": "CORRECT - The syllabus defines the AI effect as the changing perception of what constitutes AI. Capabilities like expert systems or chess programs were once seen as AI but are often not considered AI today, so the definition evolves as technology advances [1].",
+          "c": "INCORRECT - The AI effect is about changing human perception, not an inevitable transition from current AI to super AI. The syllabus treats narrow, general, and super AI as distinct concepts [1].",
+          "d": "INCORRECT - Limitation to narrow domains is part of the definition of narrow AI, not the definition of the AI effect. The AI effect concerns how public perception reclassifies technologies over time [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "Describe the AI effect and how it influences the definition of AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q2",
+        "QuestionText": "Which example BEST illustrates the AI effect according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "A new neural network model achieves slightly better accuracy than its previous version on the same task.",
+          "b": "A company replaces its old GPU hardware with newer GPUs that have more cores and higher performance.",
+          "c": "Expert systems of the 1970s and 1980s were regarded as AI at that time, but are often no longer seen as AI today.",
+          "d": "A self-learning system improves its accuracy over time as it processes more data from its environment."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "INCORRECT - This describes incremental improvement of an AI model, not a shift in what people consider to be AI.",
+          "b": "INCORRECT - This is a hardware upgrade. The AI effect is about changing perception of what counts as AI, not hardware evolution.",
+          "c": "CORRECT - The syllabus explicitly uses expert systems as an example: they were considered AI in the 1970s and 1980s but are often not considered AI now, illustrating how the definition changes over time [1].",
+          "d": "INCORRECT - This describes self-learning and evolution, not a change in how society labels the technology as AI."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.2.1",
+    "LearningObjectiveDescription": "Distinguish between narrow AI, general AI, and super AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q3",
+        "QuestionText": "Which description BEST characterizes narrow AI as defined in the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Systems with human-like general cognitive abilities that can reason and understand their environment broadly, similar to humans.",
+          "b": "Systems capable of replicating human cognition and using massive processing power, practically unlimited memory, and access to all human knowledge.",
+          "c": "Systems programmed to carry out a specific task with limited context, such as spam filters, game-playing systems, test case generators, or voice assistants.",
+          "d": "Systems that can modify their own code at runtime and automatically become autonomous without any human intervention."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "INCORRECT - This describes general AI (strong AI), not narrow AI. General AI is defined as having wide-ranging cognitive abilities comparable to humans [1].",
+          "b": "INCORRECT - This is the description of super AI and technological singularity, not narrow AI [1].",
+          "c": "CORRECT - The syllabus defines narrow AI (weak AI) as systems programmed to carry out a specific task with limited context. Examples given include game-playing systems, spam filters, test case generators, and voice assistants [1].",
+          "d": "INCORRECT - Autonomy or self-modifying code is not the defining characteristic of narrow AI in the syllabus. Narrow AI is mainly about specific tasks and limited context [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.2.1",
+    "LearningObjectiveDescription": "Distinguish between narrow AI, general AI, and super AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q4",
+        "QuestionText": "According to the syllabus, which statement about general AI is TRUE?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "General AI systems have been widely deployed since 2010 in many consumer products.",
+          "b": "General AI systems are expected to have general cognitive abilities similar to humans, but as of 2021 no such systems have been realized.",
+          "c": "General AI refers to AI services delivered over the web via a subscription model.",
+          "d": "General AI is another term for deep learning systems that use more than three hidden layers."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explicitly states that as of 2021, no general AI systems have been realized [1].",
+          "b": "CORRECT - General AI (strong AI) is defined as AI systems with general cognitive abilities similar to humans that can reason and understand their environment. The syllabus also states that no general AI systems existed as of 2021 [1].",
+          "c": "INCORRECT - This describes AI as a Service (AIaaS), not general AI.",
+          "d": "INCORRECT - Deep learning and the number of layers are not the definition of general AI. General AI refers to broad human-like cognitive abilities, independent of specific implementation technologies [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.2.1",
+    "LearningObjectiveDescription": "Distinguish between narrow AI, general AI, and super AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q5",
+        "QuestionText": "Which combination BEST matches the syllabus definitions of narrow AI, general AI, and super AI?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Narrow AI: uses brute-force search only; General AI: rule-based expert systems; Super AI: any system using neural networks.",
+          "b": "Narrow AI: task-specific systems with limited context; General AI: systems with wide-ranging human-like cognition; Super AI: systems that replicate human cognition and quickly become wiser than humans by exploiting massive computing resources and access to all human knowledge.",
+          "c": "Narrow AI: systems limited to supervised learning; General AI: systems that use unsupervised learning; Super AI: systems that use reinforcement learning.",
+          "d": "Narrow AI: non-learning systems; General AI: self-learning systems; Super AI: systems running exclusively on neuromorphic processors."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - Brute-force search, expert systems, and neural networks are technologies, not the three AI categories as defined in the syllabus [1].",
+          "b": "CORRECT - This matches the syllabus: narrow AI is task-specific with limited context; general AI has human-like general cognitive abilities; super AI combines general AI with massive processing power, practically unlimited memory, and access to virtually all human knowledge, leading to the idea of technological singularity [1].",
+          "c": "INCORRECT - The syllabus does not define the three AI levels by learning type (supervised, unsupervised, reinforcement). These are forms of ML, not the main AI categories [1].",
+          "d": "INCORRECT - The syllabus does not tie the AI categories to learning/not learning or to specific hardware such as neuromorphic processors [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.3.1",
+    "LearningObjectiveDescription": "Differentiate between AI-based systems and conventional systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q6",
+        "QuestionText": "Which statement BEST distinguishes an AI-based system using machine learning from a typical conventional system?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "In a conventional system, behavior is mainly defined by explicit human-written rules, while in an ML-based system, behavior is derived from patterns learned in data.",
+          "b": "Conventional systems can only process numeric data, whereas ML-based systems can only process images and audio data.",
+          "c": "Conventional systems are always deterministic, while ML-based systems are always non-deterministic and probabilistic.",
+          "d": "Conventional systems must use rule engines and fuzzy logic, whereas ML-based systems must use neural networks."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - The syllabus explains that in typical conventional systems, software is programmed by humans using imperative constructs such as if-then-else and loops, so it is relatively easy to see how inputs are transformed into outputs. In AI-based systems using machine learning, patterns in data are used by the system to determine how it should react to new data, as in the example of an image processor learning to recognize cats on its own [1].",
+          "b": "INCORRECT - Both conventional and ML-based systems can handle many types of data (numeric, text, images, audio, etc.). The key distinction is not the data type but whether behavior is explicitly programmed or learned from data [1].",
+          "c": "INCORRECT - The syllabus does not state that conventional systems are always deterministic or that ML-based systems are always non-deterministic. Determinism depends on the specific design. The main difference highlighted in Chapter 1.3 is how the behavior is specified (rules vs learned patterns), not determinism [1].",
+          "d": "INCORRECT - Rule engines and fuzzy logic are listed as AI technologies and are not mandatory for conventional systems. Likewise, ML-based systems do not have to use neural networks; many other ML techniques such as decision trees, random forests or regression can be used [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.3.1",
+    "LearningObjectiveDescription": "Differentiate between AI-based systems and conventional systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q7",
+        "QuestionText": "Which statement BEST describes a key difference between a typical conventional system and an AI-based system using machine learning?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "In a conventional system, behavior is defined by explicit human-written rules, while in an ML-based system, behavior is derived from patterns learned in data.",
+          "b": "Conventional systems always run in the cloud, while AI-based systems always run on embedded devices at the edge.",
+          "c": "Conventional systems can never be explained by humans, whereas AI-based systems are always transparent and easy to understand.",
+          "d": "Conventional systems only process numerical data, whereas AI-based systems only process images and audio."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - The syllabus explains that conventional systems are programmed using imperative languages (e.g., if-then-else, loops), so humans can easily see how inputs are transformed into outputs. In contrast, ML-based systems learn patterns from data (e.g., a cat classifier learns its own features), making their prediction process less straightforward to understand [1].",
+          "b": "INCORRECT - The syllabus explicitly notes that models may be trained in the cloud and then deployed on low-end devices such as smartphones; there is no strict conventional=cloud vs AI=edge distinction [1].",
+          "c": "INCORRECT - It is usually easier to understand conventional systems, whereas many AI-based systems, especially ML models, are less transparent and harder to interpret, which is a motivation for explainability topics covered later in the syllabus [1].",
+          "d": "INCORRECT - Both conventional and AI-based systems can process various data types (numeric, text, images, audio). The difference is not about allowed data types, but about how behavior is specified (rules vs learned patterns) [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.4.1",
+    "LearningObjectiveDescription": "Recognize the different technologies used to implement AI.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q8",
+        "QuestionText": "Which of the following is explicitly listed in the syllabus as an AI technology used to implement AI-based systems?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Relational database indexing",
+          "b": "Fuzzy logic",
+          "c": "Simple stack-based calculators",
+          "d": "Text editors with syntax highlighting only"
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - Relational database indexing is a general data management technology, not one of the AI technologies enumerated in the syllabus. The list includes, for example, fuzzy logic, search algorithms, reasoning techniques, rule engines, and several ML techniques [1].",
+          "b": "CORRECT - Fuzzy logic is explicitly named as one of the AI technologies that can be used to implement AI-based systems, alongside search algorithms, reasoning techniques, rule engines, and various machine learning techniques such as neural networks and decision trees [1].",
+          "c": "INCORRECT - A simple stack-based calculator is not listed as an AI technology; it is a basic computational tool lacking the AI characteristics described in Chapter 1 [1].",
+          "d": "INCORRECT - A text editor with only syntax highlighting is not classified as an AI technology in the syllabus. It does not rely on the AI techniques (e.g., ML, fuzzy logic, reasoning) described there [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.6.1",
+    "LearningObjectiveDescription": "Compare the choices available for hardware to implement AI-based systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q9",
+        "QuestionText": "Why are GPUs often preferred over general-purpose CPUs for training machine learning models, according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Because GPUs always have higher clock speeds than CPUs and therefore execute any kind of software faster.",
+          "b": "Because GPUs are designed for massively parallel processing of simple operations on large data structures, which suits typical ML workloads.",
+          "c": "Because GPUs include built-in AI algorithms, so no ML framework is needed when using them.",
+          "d": "Because GPUs can execute imperative if-then-else code, while CPUs cannot."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus states that CPUs usually have faster clock speeds, but GPUs still typically outperform CPUs for ML work because of their massively parallel architecture and many cores, not because of a higher clock frequency [1].",
+          "b": "CORRECT - The syllabus explains that ML benefits from hardware that supports low-precision arithmetic, large data structures (e.g., matrix multiplications) and massively parallel processing. GPUs, with thousands of cores optimized for such workloads, generally outperform CPUs for ML training and inference [1].",
+          "c": "INCORRECT - GPUs do not contain built-in AI algorithms; they are hardware accelerators. You still need ML frameworks and software to implement and train models [1].",
+          "d": "INCORRECT - CPUs execute imperative code just fine; in fact, this is their primary role. The advantage of GPUs is not that CPUs lack imperative capabilities, but that GPUs are architected for parallel numeric operations required by ML [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.7.1",
+    "LearningObjectiveDescription": "Explain the concept of AI as a Service (AIaaS).",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q10",
+        "QuestionText": "Which statement BEST describes AI as a Service (AIaaS) as presented in the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "AIaaS is a deployment model where an organization must host all AI models on its own on-premise hardware and cannot use the cloud.",
+          "b": "AIaaS is the outsourcing of the entire software development lifecycle, including requirements and testing, to an external AI consultancy.",
+          "c": "AIaaS provides access to AI components, such as ML models and related tooling, over the web as cloud-based services, often paid per use or via subscription.",
+          "d": "AIaaS refers exclusively to renting physical GPUs in a data center without any higher-level AI functionality."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "INCORRECT - This describes the opposite of AIaaS. The syllabus states that AI components and ML models can be used as services on the web, rather than always being hosted internally [1].",
+          "b": "INCORRECT - AIaaS is not defined as outsourcing the entire SDLC; it specifically concerns using AI/ML capabilities (e.g., facial or speech recognition) via cloud services, with support for tasks like training, evaluation, and deployment [1].",
+          "c": "CORRECT - According to the syllabus, AI components such as ML models may be provided as services over the web, including capabilities for data preparation, training, evaluation, tuning, testing, and deployment. Third-party providers like AWS, Microsoft, and Google offer such AI services on a pay-per-use or subscription basis [1].",
+          "d": "INCORRECT - While AIaaS may internally rely on specialized hardware such as GPUs or TPUs, AIaaS refers to higher-level AI functionalities and APIs delivered via the cloud, not just raw hardware rental [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.8.1",
+    "LearningObjectiveDescription": "Explain the use of pre-trained AI models and the risks associated with them.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q11",
+        "QuestionText": "Which option describes a RISK associated with using pre-trained models and transfer learning, as outlined in the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Pre-trained models always require more training data and more compute resources than training a model from scratch.",
+          "b": "Pre-trained models may inherit undocumented shortcomings, such as unknown biases or vulnerabilities, which can be carried over to systems that reuse them.",
+          "c": "Transfer learning guarantees that the new model will not be vulnerable to adversarial attacks because it uses additional training data.",
+          "d": "Using pre-trained models is only risky for image classification; for NLP tasks there are no specific risks mentioned in the syllabus."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus states the opposite: pre-trained models are used to save substantial human and computing effort compared to training from scratch, especially when large datasets like ImageNet are involved [1].",
+          "b": "CORRECT - The syllabus explains that pre-trained models may lack transparency, may have unknown biases or other shortcomings, and that models produced via transfer learning are likely to share the same vulnerabilities (e.g., adversarial attack patterns) as the original pre-trained model. These issues may not be documented, creating a significant risk when reusing them [1].",
+          "c": "INCORRECT - The syllabus explicitly warns that models created through transfer learning are “highly likely to be sensitive to the same vulnerabilities” as the base pre-trained model, not protected from adversarial attacks [1].",
+          "d": "INCORRECT - The risks discussed (e.g., inherited bias, lack of transparency, undocumented defects, vulnerabilities) apply generally to pre-trained models, including both image models (e.g., Inception, VGG) and NLP models like BERT mentioned in the syllabus [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.5.1",
+    "LearningObjectiveDescription": "Identify popular AI development frameworks.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q13",
+        "QuestionText": "Which of the following is explicitly listed in the syllabus as a popular AI development framework?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Apache MxNet",
+          "b": "MongoDB",
+          "c": "PostgreSQL",
+          "d": "Docker"
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Apache MxNet is named in the syllabus as a deep learning open-source framework used by Amazon for AWS and is one of the example AI development frameworks as of April 2021 [1].",
+          "b": "INCORRECT - MongoDB is a NoSQL database, not listed as an AI development framework in the syllabus.",
+          "c": "INCORRECT - PostgreSQL is a relational database management system, not identified as an AI development framework in Chapter 1 [1].",
+          "d": "INCORRECT - Docker is a containerization platform. While often used to deploy AI solutions, it is not listed as an AI development framework in the syllabus [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.5.1",
+    "LearningObjectiveDescription": "Identify popular AI development frameworks.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q14",
+        "QuestionText": "Which option BEST describes Keras as characterized in the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Keras is a standalone proprietary tool from Google that can only run on Google TPUs.",
+          "b": "Keras is a high-level open-source Python API that can run on top of frameworks such as TensorFlow and CNTK.",
+          "c": "Keras is a cloud-only service that automatically labels data and trains models without any coding.",
+          "d": "Keras is an operating system optimized for AI workloads on mobile devices."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus describes Keras as a high-level open-source API in Python, not as a proprietary standalone tool from Google and not limited to TPUs [1].",
+          "b": "CORRECT - Keras is explicitly described as a high-level open-source API, written in Python, capable of running on top of TensorFlow and CNTK, which matches this option [1].",
+          "c": "INCORRECT - The syllabus does not describe Keras as a cloud-only no-code service; it is a development API used by programmers within AI frameworks [1].",
+          "d": "INCORRECT - Keras is not an operating system and is not described as being specific to mobile devices in the syllabus [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.6.1",
+    "LearningObjectiveDescription": "Compare the choices available for hardware to implement AI-based systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q15",
+        "QuestionText": "Which statement BEST compares general-purpose CPUs and GPUs for machine learning workloads, according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "CPUs are preferred because they have more cores and are optimized for massively parallel matrix operations needed by ML models.",
+          "b": "GPUs typically outperform CPUs for ML applications because they provide thousands of cores and are designed for massively parallel but relatively simple processing.",
+          "c": "CPUs and GPUs provide identical performance for ML tasks; the choice is mainly a matter of brand preference.",
+          "d": "GPUs can only be used for graphics rendering and therefore are not considered suitable for ML model training."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus states that CPUs have only a few cores and are optimized for more complex operations, whereas GPUs have thousands of cores for massively parallel processing [1].",
+          "b": "CORRECT - The syllabus explains that GPUs are designed for massively parallel processing of large data structures and, despite CPUs often having higher clock speeds, GPUs typically outperform CPUs for ML applications [1].",
+          "c": "INCORRECT - The syllabus explicitly contrasts their performance and architecture and does not claim they are identical for ML workloads [1].",
+          "d": "INCORRECT - Although originally designed for graphics, the syllabus clearly describes GPUs as commonly used and effective hardware for training and running ML models [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.7.1",
+    "LearningObjectiveDescription": "Explain the concept of AI as a Service (AIaaS).",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q16",
+        "QuestionText": "Which statement about service-level agreements (SLAs) in typical AIaaS contracts is MOST accurate, based on the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "AIaaS SLAs always define detailed accuracy thresholds for ML models as part of the contractual guarantees.",
+          "b": "AIaaS SLAs usually focus on aspects like uptime and response time for fixing defects and rarely specify ML functional performance metrics such as accuracy.",
+          "c": "AIaaS SLAs typically guarantee that no concept drift will occur during the contract period.",
+          "d": "AIaaS SLAs mainly define how training data must be prepared and do not cover availability or defect response times."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explicitly states that SLAs for AIaaS rarely define ML functional performance metrics (like accuracy) in the same way as they define availability and response times [1].",
+          "b": "CORRECT - According to the syllabus, AIaaS contracts are similar to other cloud SaaS contracts: they usually define availability (e.g., 99.99% uptime) and response time for fixing defects and only rarely specify ML functional performance metrics [1].",
+          "c": "INCORRECT - The syllabus does not mention any SLA guarantee that concept drift will not occur; instead it notes limitations and low liability, restricting AIaaS mostly to relatively low-risk applications [1].",
+          "d": "INCORRECT - While data preparation support may be offered as part of AIaaS, the syllabus clearly emphasizes that typical SLAs cover availability and response time to fix defects, not primarily data preparation rules [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "Describe the AI effect and how it influences the definition of AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q18",
+        "QuestionText": "Which statement BEST explains how the AI effect influences what is currently regarded as an AI-based system?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Once a technology is labeled as AI, it will always be considered AI, regardless of future advances.",
+          "b": "The AI effect means that systems using rule engines or search algorithms are no longer allowed to be called AI under any circumstances.",
+          "c": "The AI effect means that as certain techniques and systems become well-known and commonplace, they are often no longer perceived as AI, shifting the border between ‘AI-based’ and ‘conventional’ over time.",
+          "d": "The AI effect only applies to games like chess and has no impact on modern AI-based applications in business or industry."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explicitly notes that expert systems and brute-force chess programs were once seen as AI but are often not viewed as AI today, so the label is not permanent [1].",
+          "b": "INCORRECT - Section 1.4 lists rule engines and search algorithms among AI technologies. The AI effect does not impose a strict ban; it describes changing perception, not hard rules [1].",
+          "c": "CORRECT - The AI effect is defined as the changing perception of what constitutes AI. As technologies become widespread or well understood, they may be reclassified as conventional, shifting the line between AI-based and conventional systems over time [1].",
+          "d": "INCORRECT - Chess is one historical example, but the AI effect also applies to other technologies such as expert systems, and more broadly to what we currently call AI-based vs conventional systems [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.3.1",
+    "LearningObjectiveDescription": "Differentiate between AI-based systems and conventional systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q19",
+        "QuestionText": "Which option BEST contrasts how behavior is typically specified in a conventional system versus an ML-based AI system?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Conventional: behavior is learned from examples; ML-based: behavior is defined by a fixed set of human-written rules.",
+          "b": "Conventional: behavior is defined using imperative constructs such as if-then-else and loops; ML-based: behavior is derived from patterns found in data during training.",
+          "c": "Conventional: behavior must be probabilistic; ML-based: behavior must always be deterministic.",
+          "d": "Conventional: behavior must be implemented using neural networks; ML-based: behavior must be implemented using rule engines."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - This reverses the roles. It is the ML-based system that learns from data, while conventional systems usually rely on explicitly coded rules [1].",
+          "b": "CORRECT - Section 1.3 explains that conventional systems are programmed by humans with imperative languages (if-then-else, loops), whereas ML-based systems learn patterns from data and use these patterns to make future predictions [1].",
+          "c": "INCORRECT - The syllabus does not state that conventional systems must be probabilistic or that ML-based systems must be deterministic; many ML systems are probabilistic [1].",
+          "d": "INCORRECT - Neural networks are one ML technology, not mandatory for all conventional systems. Rule engines are listed as one possible AI technology, not the standard for ML-based behavior [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.6.1",
+    "LearningObjectiveDescription": "Compare the choices available for hardware to implement AI-based systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q20",
+        "QuestionText": "Which statement BEST describes why AI-specific ASICs and SoCs are often used at the edge in AI-based systems, according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "They are mainly designed to speed up model training in the cloud and are rarely used for on-device inference.",
+          "b": "They typically combine multiple cores, special data management and in-memory processing, making them well suited for running trained models efficiently on devices with limited power and resources.",
+          "c": "They completely replace GPUs and CPUs for all AI workloads, making general-purpose processors obsolete.",
+          "d": "They are only used to emulate neuromorphic processors and therefore cannot be deployed in real products yet."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus states that purpose-built AI ASICs and SoCs are most suitable for edge computing, while the training of the ML model is typically done in the cloud. Their main role is not cloud training but efficient on-device inference [1].",
+          "b": "CORRECT - Section 1.6 explains that AI-specific ASIC/SoC solutions provide features such as multiple cores, special data management and in-memory processing, and that they are most suitable for edge computing, where a trained model must run efficiently on the device under power and resource constraints [1].",
+          "c": "INCORRECT - The syllabus describes ASICs/SoCs as additional hardware options; it does not say that they completely replace CPUs and GPUs for all AI workloads. Cloud training often still relies heavily on GPUs and other accelerators [1].",
+          "d": "INCORRECT - Neuromorphic processors are described separately as an AI-specific architecture under development and are distinct from ASIC/SoC devices that are already used in real products such as smartphones and vehicles [1]."
+        }
+      }
+   ]
+  },
+  {
+    "LearningObjective": "AI-1.4.1",
+    "LearningObjectiveDescription": "Recognize the different technologies used to implement AI.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q21",
+        "QuestionText": "Which option lists ONLY technologies that are explicitly mentioned in the syllabus as examples of machine learning techniques used to implement AI?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Neural networks, decision trees, random forest, clustering algorithms, support vector machine (SVM).",
+          "b": "Finite state machines, hash tables, bubble sort, quicksort.",
+          "c": "Graph databases, REST APIs, message queues, containers.",
+          "d": "Compilers, operating systems, web browsers, file systems."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - The syllabus explicitly lists neural networks, Bayesian models, decision trees, random forest, linear and logistic regression, clustering algorithms, genetic algorithms and support vector machine (SVM) as machine learning techniques used in AI-based systems [1].",
+          "b": "INCORRECT - These are general computing/data-structure concepts and algorithms, but they are not the ML techniques enumerated in the syllabus as AI implementation technologies [1].",
+          "c": "INCORRECT - These are infrastructure and integration technologies, not the AI/ML techniques listed in Section 1.4 of the syllabus [1].",
+          "d": "INCORRECT - These are examples of system software, not the AI technologies called out in the syllabus (such as fuzzy logic, rule engines and ML algorithms) [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.5.1",
+    "LearningObjectiveDescription": "Identify popular AI development frameworks.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q22",
+        "QuestionText": "Which statement BEST describes the role of AI development frameworks as characterized in Chapter 1?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "AI development frameworks are operating systems specialized for AI that completely replace ML libraries and tools.",
+          "b": "AI development frameworks are toolsets and libraries that support activities like data preparation, algorithm selection, and compiling models to run on CPUs, GPUs or TPUs.",
+          "c": "AI development frameworks are only used for deploying trained models and never support training or data preparation.",
+          "d": "AI development frameworks are standards published by ISO and IEC that define how AI must be implemented in safety-related systems."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus describes frameworks such as TensorFlow, PyTorch, Apache MxNet and others as libraries and tool suites, not as operating systems that replace ML libraries [1].",
+          "b": "CORRECT - Section 1.5 states that AI development frameworks support activities such as data preparation, algorithm selection, and compilation of models for various processors (CPUs, GPUs, TPUs); examples include MxNet, CNTK, Watson Studio, Keras, PyTorch, Scikit-learn and TensorFlow [1].",
+          "c": "INCORRECT - The syllabus explicitly notes that frameworks support data preparation and model training as well as deployment; they are not restricted to deployment only [1].",
+          "d": "INCORRECT - Frameworks are software tools and libraries; standards (like ISO 26262) are discussed separately in Section 1.9 and are not the same as frameworks [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.6.1",
+    "LearningObjectiveDescription": "Compare the choices available for hardware to implement AI-based systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q23",
+        "QuestionText": "In the context of hardware for AI-based systems, which statement is MOST accurate according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "General-purpose CPUs usually have thousands of cores and are therefore always faster than GPUs for training ML models.",
+          "b": "GPUs are designed for massively parallel but relatively simple operations on large data structures, so they typically outperform CPUs for many ML training and inference tasks.",
+          "c": "Neuromorphic processors based on the von Neumann architecture are the only supported option for training ML models in the cloud.",
+          "d": "AI-specific SoC and ASIC solutions are only suitable for training models and cannot be used for edge inference."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explains that CPUs provide only a few cores and support complex operations, whereas GPUs provide thousands of cores and are better suited to massively parallel processing for ML workloads [1].",
+          "b": "CORRECT - Section 1.6 states that ML benefits from hardware supporting low-precision arithmetic, large data structures and massively parallel processing; GPUs have thousands of cores designed for these workloads and typically outperform CPUs for ML applications, despite CPUs often having higher clock speeds [1].",
+          "c": "INCORRECT - Neuromorphic processors are described as new AI-specific architectures that do NOT use the traditional von Neumann architecture and are under development; they are not stated as the only or main cloud training option [1].",
+          "d": "INCORRECT - The syllabus explicitly notes that AI-specific ASICs and SoCs are most suitable for edge computing (inference on the device), with model training typically done in the cloud, so they are not limited to training and are actually highlighted for inference at the edge [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.7.1",
+    "LearningObjectiveDescription": "Explain the concept of AI as a Service (AIaaS).",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q24",
+        "QuestionText": "Which scenario BEST illustrates how an organization might use AI as a Service (AIaaS) as described in the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "A bank buys GPUs and TPUs and installs them in its own data center to train all ML models in-house, with no external service usage.",
+          "b": "A retailer calls a cloud provider’s image-recognition API to classify product photos and relies on the provider’s infrastructure for data storage, model training and deployment, paying per processed image.",
+          "c": "A software vendor writes a rule-based pricing engine in C and deploys it on a local server without any connection to the internet.",
+          "d": "A company publishes its internal coding guidelines and expects suppliers to follow them when developing AI models."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - This describes building and running AI completely in-house. AIaaS refers to consuming AI and ML capabilities as cloud-hosted services over the web, not merely owning hardware [1].",
+          "b": "CORRECT - Section 1.7 explains that AI components such as ML models can be accessed as services over the web, with providers (e.g., AWS, Microsoft, Google) offering capabilities like image or speech recognition and pricing often based on usage (e.g., pages or images processed). These services may include data preparation, training, evaluation and deployment support [1].",
+          "c": "INCORRECT - A local rule-based engine with no web-based service component does not match the AIaaS concept; AIaaS explicitly refers to AI provided as a service on the web [1].",
+          "d": "INCORRECT - Publishing guidelines is governance, not the provisioning or consumption of AI capabilities via cloud-hosted services as described for AIaaS [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.9.1",
+    "LearningObjectiveDescription": "Describe how standards apply to AI-based systems.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q25",
+        "QuestionText": "Which statement BEST describes how standards and regulations can affect AI-based systems, according to the CT-AI syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "AI-related standards are purely voluntary guidelines and can never become mandatory, even in safety-related domains.",
+          "b": "Standards on AI are only written by ISO/IEC JTC1/SC42 and are always directly and automatically binding in all countries.",
+          "c": "Regulatory standards such as ISO 26262 and ISO/PAS 21448 (SOTIF) may be mandated by government bodies for certain domains, making it illegal to sell non-compliant AI-based systems in some markets.",
+          "d": "GDPR only governs data storage formats and does not impose any requirements on the accuracy or fairness of AI-based systems."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus states that standards in isolation are voluntary, but they can become mandatory when referenced by legislation or contracts, especially in safety-related domains such as automotive.[1]",
+          "b": "INCORRECT - ISO/IEC JTC1/SC42 is one subcommittee working on AI standards, but standards can also be issued at regional and national levels. They are not automatically binding; they become mandatory via legislation or contracts.[1]",
+          "c": "CORRECT - The syllabus explains that in safety-related domains, regulatory standards like ISO 26262 and ISO/PAS 21448 (SOTIF) are typically mandated by government bodies, and that it may be illegal to sell, for example, a car whose software does not comply with ISO 26262 in some countries.[1]",
+          "d": "INCORRECT - The syllabus explicitly notes that GDPR includes requirements to assess and improve AI system functional performance, mitigate potential discrimination, and ensure that personal data (including predictions) are accurate enough for the purposes for which the system is used.[1]"
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "Describe the AI effect and how it influences the definition of AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q26",
+        "QuestionText": "Which statement BEST explains why a fixed, timeless definition of AI is difficult, according to the syllabus?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Because AI is always defined as any software using neural networks, and this scope never changes.",
+          "b": "Because the AI effect means that as certain techniques become commonplace, they are often no longer perceived as AI, so what is considered AI changes over time.",
+          "c": "Because the ISO/IEC JTC1 committee redefines AI every year, making older definitions invalid.",
+          "d": "Because AI must always involve robots and physical devices, and this hardware focus constantly changes the definition."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - The syllabus explicitly mentions systems such as expert systems and Deep Blue that were considered AI although they did not learn from data or use neural networks; neural networks are not the fixed core of all AI definitions [1].",
+          "b": "CORRECT - The syllabus defines the AI effect as the changing perception of what constitutes AI. Examples include chess-playing programs and expert systems that were once seen as AI but are often no longer regarded as AI today, so any definition made today is likely to change in the future [1].",
+          "c": "INCORRECT - The syllabus mentions ISO/IEC work on AI standards but does not say that these committees redefine AI annually or that this is the primary reason a fixed definition is difficult [1].",
+          "d": "INCORRECT - AI is not restricted to robotics or physical devices. The syllabus focuses on engineered systems with the capability to acquire, process and apply knowledge and skills; the difficulty of a fixed definition stems from perception and technological progress, not from changing hardware alone [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.2.1",
+    "LearningObjectiveDescription": "Distinguish between narrow AI, general AI, and super AI.",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q27",
+        "QuestionText": "Which scenario is the BEST example of narrow AI as described in Chapter 1?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "An AI-based assistant that can perform any intellectual task a human can, across all domains, including scientific discovery, law, art, and medicine.",
+          "b": "A cloud-based system that monitors stock prices and predicts short-term price movements for a specific set of financial instruments.",
+          "c": "A hypothetical AI-based system that rapidly becomes vastly more intelligent than humans across all areas by using practically unlimited processing power and access to all human knowledge.",
+          "d": "A future AI-based doctor that can not only diagnose all diseases like a human expert, but also design entirely new medicines without human help in any medical domain."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "INCORRECT - This describes general AI (strong AI) with broad human-like cognitive abilities across many domains; such systems do not exist as of 2021 according to the syllabus [1].",
+          "b": "CORRECT - The syllabus defines narrow AI (weak AI) as systems programmed to carry out a specific task with limited context. A system focused on predicting short-term stock prices for a specific set of instruments fits this narrow, task-specific description [1].",
+          "c": "INCORRECT - This matches the syllabus description of super AI, which combines general AI with massive processing power, practically unlimited memory and access to all human knowledge, quickly becoming “wiser” than humans [1].",
+          "d": "INCORRECT - This goes beyond a narrow task and implies very broad, human-like, cross-domain intelligence in medicine, closer to general or even super AI, not narrow AI [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.4.1",
+    "LearningObjectiveDescription": "Recognize the different technologies used to implement AI.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q28",
+        "QuestionText": "Which list contains ONLY technologies that are explicitly named in the syllabus as examples of AI technologies?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Fuzzy logic, search algorithms, rule engines, neural networks, decision trees.",
+          "b": "Compilers, operating systems, relational databases, web servers, message queues.",
+          "c": "Blockchain, container orchestration, VPNs, firewalls, SSD controllers.",
+          "d": "Key-value stores, spreadsheet macros, barcode scanners, email servers."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Section 1.4 explicitly lists fuzzy logic, search algorithms, reasoning techniques (including rule engines, deductive classifiers, case-based and procedural reasoning) and machine learning techniques such as neural networks and decision trees as AI technologies [1].",
+          "b": "INCORRECT - These are general software and infrastructure components, not the AI technologies enumerated in Section 1.4 [1].",
+          "c": "INCORRECT - These are various infrastructure and security technologies; they are not listed as AI technologies in Chapter 1 [1].",
+          "d": "INCORRECT - These are generic IT components and tools, but none of them appear in the syllabus’ list of AI implementation technologies in Section 1.4 [1]."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.5.1",
+    "LearningObjectiveDescription": "Identify popular AI development frameworks.",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q29",
+        "QuestionText": "Which set lists ONLY AI development frameworks or tools that are explicitly mentioned as popular in the syllabus (as of April 2021)?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "TensorFlow, PyTorch, Scikit-learn, IBM Watson Studio.",
+          "b": "MySQL, PostgreSQL, Oracle Database, MongoDB.",
+          "c": "Docker, Kubernetes, Jenkins, GitLab CI.",
+          "d": "Photoshop, Excel, PowerPoint, Word."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Section 1.5 names TensorFlow, PyTorch, Scikit-learn and IBM Watson Studio (among others such as Apache MxNet, CNTK and Keras) as popular AI development frameworks and tool suites [1].",
+          "b": "INCORRECT - These are database management systems, not AI development frameworks listed in Chapter 1 [1].",
+          "c": "INCORRECT - These are DevOps and containerization tools, not the AI frameworks cited in the syllabus [1].",
+          "d": "INCORRECT - These are general productivity tools and are not listed as AI development frameworks in the syllabus [1]."
+        }
+      }
+    ]
+  },
+  {
+	"LearningObjective": "AI-1.8.1",
+	"LearningObjectiveDescription": "Explain the use of pre-trained AI models and the risks associated with them.",
+	"KnowledgeType": "K2",
+	"Details": [
+	  {
+		"QuestionPoints": "1",
+		"QuestionId": "q30",
+		"QuestionText": "According to the syllabus, which statement BEST describes how transfer learning typically reuses a pre-trained deep neural network?",
+		"AnswerOption": "Select ONE option. (1 out of 4)",
+		"Answers": {
+		  "a": "Transfer learning always discards all existing layers of the pre-trained network and uses only its training dataset as input for building a completely new model.",
+		  "b": "Transfer learning reuses most of the pre-trained network, especially the early layers that capture basic features, and retrains or fine tunes the later layers to meet the new, more specific requirements.",
+		  "c": "Transfer learning keeps the architecture of the pre-trained network but randomly reinitializes all weights so that none of the original learned knowledge is retained.",
+		  "d": "Transfer learning converts a pre-trained classifier into an unsupervised model by removing the output layer and eliminating all original labels from the training data."
+		},
+		"CorrectAnswer": "b",
+		"Explanation": {
+		  "a": "INCORRECT - The syllabus explains that transfer learning builds on an existing pre-trained model; it does not throw away all layers and start again. The point is to reuse much of the existing network to save training effort and reduce risk [1].",
+		  "b": "CORRECT - Section 1.8.2 states that in deep neural networks the early layers usually perform basic tasks (e.g., detecting straight vs curved lines in image classifiers), while the later layers perform more specialized tasks. In transfer learning, all but the later layers can be reused, and these later layers are retrained or fine tuned with new, problem specific data to address the new requirement [1].",
+		  "c": "INCORRECT - Randomly reinitializing all weights would remove the benefit of using a pre-trained model. The syllabus explicitly describes reusing the pre-trained network rather than discarding its learned parameters [1].",
+		  "d": "INCORRECT - The syllabus describes transfer learning as adapting a pre-trained model to perform a different but related requirement, typically still in a supervised learning setting (e.g., adapting an image classifier). It does not redefine it as an unsupervised model by removing labels [1]."
+		}
+	  }
+	]
+  }
+]

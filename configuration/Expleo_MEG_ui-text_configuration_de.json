@@ -1,0 +1,51 @@
+﻿
+{
+  "appTitle": "MEG",
+  "header": "Expleo - Mock Exam Generator",
+  "subHeader": "  ISTQB AI Testing Certification (CT-AI)",
+  "learningObjective": "Lernziele:",
+  "numberOfQuestions": "Anzahl der Fragen:",
+  "questionLabel": "Frage",
+  "timeLimit": "Zeitlimit:",
+  "timeUnit": "Minuten",
+  "timeRemaining": "Verbleibende Zeit:",
+  "passingScore": "Sie benötigen {percentage}% um die Prüfung zu bestehen.",
+  "currentScoreLabel": "Aktueller Score:",
+  "NotAnsweredQuestions": "Nicht beantwortete Fragen:",
+  "questionOf": "Frage von",
+  "buttons": {
+    "previousQuestion": "vorherige Frage",
+    "nextQuestion": "nächste Frage",
+    "resetAnswers": "Antwort zurücksetzen",
+	"submitAnswer": "Antwort abschicken",
+    "submitExam": "Prüfung abschicken",
+    "repeatExam": "Prüfung wiederholen",
+    "repeatFailedQuestions": "falsch beantwortete Fragen wiederholen"
+  },
+  "errors": {
+    "invalidQuestionNumber": "Bitte wählen Sie eine gültige Frage zwischen {min} und {max}!",
+	"invalidSubmit": "Bitte treffen Sie eine Auswahl, bevor Sie die Antwort absenden.",
+	"invalidFailedQuestion": "Falsch beantwortete Fragen können nicht wiederholt werden!",
+	"unansweredSubmitExam":"Sie haben ${totalExistingQuestions - unansweredCount} unbeantwortete Fragen. Möchten Sie die Prüfung wirklich einreichen?"
+  },
+  "templates": {
+     "incorrectAnswerFeedback": "<strong>{questionWord} {index}: {incorrectLabel}</strong> {yourAnswerLabel}{answersPluralSuffix}: {answersList} | {correctAnswerLabel}{correctPluralSuffix}: {correctAnswersList}",
+	 "correctAnswerFeedback": "<strong>{correctLabel}</strong> {yourAnswerLabel}{answersPluralSuffix}: {answersList}",
+	 "scoreSummary": "{scoreLabel}: {score}/{total} ({percentage}%)<br><span>{resultText}</span>"
+   },
+  "labels": {
+    "questionWord": "Frage",
+    "ofWord": "von",
+	"showingFor": "Zeige {count} Frage(n) für {code}",
+	"showingAll": "Zeige alle {count} Fragen",
+	"incorrectLabel": "Falsch.",
+	"correctLabel": "Korrekt!",
+	"yourAnswerLabel": "Deine Antwort",
+	"correctAnswerLabel": "Korrekte Antwort",
+	"explanationLabel": "Erklärung",
+	"notAnswered": "Nicht beantwortet",
+	"scoreLabel": "Ihr Resultat",
+	"passedText": "BESTANDEN",
+	"failedText": "DURCHGEFALLEN"
+  }
+}

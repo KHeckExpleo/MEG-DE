@@ -1,0 +1,54 @@
+﻿[
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId" : "q1",
+        "QuestionText" : "Laquelle des affirmations suivantes fournit le MEILLEUR exemple de l'effet IA ?",
+        "AnswerOption" : "Choisissez UNE option. (1 sur 4)",
+        "Answers" : {
+        "a" : "Les gens perdent leur emploi parce que les systèmes basés sur l'IA accomplissent leurs tâches mieux et à moindre coût",
+        "b" : "Les jeux vidéo compétitifs perdent en popularité car les systèmes basés sur l'IA gagnent toujours",
+        "c" : "Les systèmes experts basés sur des règles pour le diagnostic médical ne sont plus considérés comme de l'IA",
+        "d" : "Les gens pensent que l'IA va conquérir le monde, comme le montrent les films"
+        },
+        "CorrectAnswer" : "c",
+        "Explanation" : {
+            "a" : "FAUX - Les personnes exerçant de nombreuses professions pourraient perdre leur emploi au profit de systèmes basés sur l'IA, mais il s'agit simplement d'un progrès et non de l'effet IA . Comparez la définition de l'effet IA dans le programme CT-AI, chapitre 1.1, paragraphe 3.",
+            "b" : "FAUX - L'effet IA ne concerne pas la comparaison entre un système basé sur l'IA et la concurrence, mais la perception de ce qui constitue l'IA. Comparer la définition de l'effet IA dans le programme CT-AI, chapitre 1.1, paragraphe 3.",
+            "c" : "CORRECT - L'effet IA est défini comme le changement de définition de l'IA au fur et à mesure des progrès technologiques. Les systèmes basés sur des règles pour le diagnostic médical étaient des exemples populaires d'IA dans les années 1970 et 1980, mais ils ne sont souvent plus considérés comme de l'IA aujourd'hui. Voir le programme CT-AI, chapitre 1.1, paragraphe 2, deuxième partie.",
+            "d" : "FAUX - La crédulité des cinéphiles qui pensent que des robots tueurs vont conquérir le monde n'est pas l'effet IA. Comparez le programme CT-AI, chapitre 1.1, paragraphe 2 sur la compétition aux échecs."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q2",
+		"QuestionText" : "Laquelle des options suivantes n'est PAS une technologie utilisée pour mettre en œuvre l'IA ?",
+		"AnswerOption" : "Choisissez UNE option. (1 sur 4)",
+		"Answers" : {
+		"a" : "Machines à vecteurs de support",
+		"b" : "Arbres de décision",
+		"c" : "TensorFlow",
+		"d" : "Modèles bayésiens"
+		},
+		"CorrectAnswer" : "c",
+		"Explanation" : {
+		    "a" : "FAUX - Les machines à vecteurs de support sont une forme d'apprentissage automatique. Voir le programme CT-AI, chapitre 1.4.",
+		    "b" : "FAUX - Les arbres de décision sont une forme d'apprentissage automatique. Voir le programme CT-AI, chapitre 1.4.",
+		    "c" : "CORRECT - TensorFlow n'est pas une technique d'IA, mais un cadre de développement d'IA concret. Voir le programme CT-AI, chapitre 1.5, dernier point.",
+		    "d" : "FAUX - Les modèles bayésiens sont une forme d'apprentissage automatique. Voir le programme CT-AI, chapitre 1.4."
+       }
+     }
+   ]
+ }
+]

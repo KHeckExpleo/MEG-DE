@@ -1,0 +1,51 @@
+
+{
+  "appTitle": "MEG",
+  "header": "EXPLEO - Mock Exam Generator",
+  "subHeader": "  ISTQB AI Testing Certification (CT-AI)",
+  "learningObjective": "Learning Objectives:",
+  "numberOfQuestions": "Number of Questions:",
+  "questionLabel": "Question",
+  "timeLimit": "Time Limit:",
+  "timeUnit": "minutes",
+  "timeRemaining": "Time remaining:",
+  "passingScore": "You need {percentage}% to pass the exam.",
+  "currentScoreLabel": "Current Score:",
+  "NotAnsweredQuestions": "Not answered questions:",
+  "questionOf": "Question of",
+  "buttons": {
+    "previousQuestion": "Previous Question",
+    "nextQuestion": "Next Question",
+    "resetAnswers": "Reset Answers",
+	"submitAnswer": "Submit Answer",
+    "submitExam": "Submit Exam",
+    "repeatExam": "Repeat Exam",
+    "repeatFailedQuestions": "Repeat Failed Questions"
+  },
+  "errors": {
+    "invalidQuestionNumber": "Please select a valid question between {min} and {max}!",
+	"invalidSubmit": "Please select an answer before submitting your answer.",
+	"invalidFailedQuestion": "Questions answered incorrectly cannot be repeated.",
+    "unansweredSubmitExam": "You have ${totalExistingQuestions - unansweredCount} unanswered questions. Are you sure you want to submit the exam?"
+  },
+  "templates": {
+       "incorrectAnswerFeedback": "<strong>{questionWord} {index}: {incorrectLabel}</strong> {yourAnswerLabel}{answersPluralSuffix}: {answersList} | {correctAnswerLabel}{correctPluralSuffix}: {correctAnswersList}",
+     "correctAnswerFeedback": "<strong>{correctLabel}</strong> {yourAnswerLabel}{answersPluralSuffix}: {answersList}",
+     "scoreSummary": "{scoreLabel}: {score}/{total} ({percentage}%)<br><span>{resultText}</span>"
+  },
+  "labels": {
+    "questionWord": "Question",
+    "ofWord": "of",
+	"showingFor": "Showing {count} Question(s) for {code}",
+	"showingAll": "Showing all {count} Questions",
+	"incorrectLabel": "Error.",
+	"correctLabel": "Correct.",
+	"yourAnswerLabel": "Your answer",
+	"correctAnswerLabel": "Correct answer",
+	"explanationLabel": "Explanation",
+	"notAnswered": "Without answer",
+	"scoreLabel": "Your result",
+	"passedText": "PASSED",
+	"failedText": "FAILED"
+  }
+}
