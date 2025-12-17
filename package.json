@@ -1,4 +1,9 @@
 {
+  "build": {
+    "publish": ["never"]  // oder einfach "publish": null
+  }
+},
+{
   "name": "istqb-ct-ai-exam",
   "version": "1.0.0",
   "main": "main.js",
