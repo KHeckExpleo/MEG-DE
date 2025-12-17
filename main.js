@@ -11,11 +11,12 @@ function createWindow() {
     }
   });
 
-  mainWindow.loadFile('Expleo_MEG_index.html');
+  mainWindow.loadFile('ndex.html');
   
   // Comentează linia următoare pentru versiunea finală
   // mainWindow.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
+
 app.on('window-all-closed', () => app.quit());
