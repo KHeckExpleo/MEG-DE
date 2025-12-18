@@ -41,7 +41,7 @@
     "incorrectLabel": "Faux.",
 	"correctLabel": "Correct.",
     "yourAnswerLabel": "Votre réponse",
-    "correctAnswerLabel": "Réponse correct",
+    "correctAnswerLabel": "Réponse correcte",
 	"explanationLabel": "Explication",
     "notAnswered": "Sans réponse",
 	"scoreLabel": "Votre résultat",
@@ -50,3 +50,4 @@
    }
 
 }
+
