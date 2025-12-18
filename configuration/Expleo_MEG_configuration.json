@@ -1,13 +1,14 @@
 
 {
-  "limeLimitMinutes_description": "Zeitlimit für die Prüfung in Minuten",
+  "limeLimitMinutes_description": "Zeitlimit fÃ¼r die PrÃ¼fung in Minuten",
   "timeLimitMinutes": 120,
-  "passingPercentage_description": "Mindestprozentsatz zum Bestehen der Prüfung",
+  "passingPercentage_description": "Mindestprozentsatz zum Bestehen der PrÃ¼fung",
   "passingPercentage": 65,
-  "usedSyllabus_description": "Verwendetes Syllabus für die Prüfung, bzw. Thema der Prüfung: ISTQB Kurzbezeichnung",
+  "usedSyllabus_description": "Verwendetes Syllabus fÃ¼r die PrÃ¼fung, bzw. Thema der PrÃ¼fung: ISTQB Kurzbezeichnung",
   "usedSyllabus": "CT-AI",
-  "usedQuestionCatalog_description": "Pfad und Datei mit den Prüfungsfragen",
-  "usedQuestionCatalog": "./exams/CT-AI-Pruefungsfragen_Probepruefung_de.json",
+  "usedQuestionCatalog_description": "Pfad und Datei mit den PrÃ¼fungsfragen",
+  "usedQuestionCatalog": "./exams/CT-AI-Pruefungsfragen_Probepruefung_fr.json",
   "usedUI_description": "Pfad und Datei mit den UI-Texten",
-  "usedUI": "./configuration/Expleo_MEG_ui-text_configuration_de.json"
+  "usedUI": "./configuration/Expleo_MEG_ui-text_configuration_fr.json"
 }
+
