@@ -11,7 +11,7 @@ function createWindow() {
     }
   });
 
-  mainWindow.loadFile('ndex.html');
+  mainWindow.loadFile('index.html');
   
   // Comentează linia următoare pentru versiunea finală
   // mainWindow.webContents.openDevTools();
@@ -20,3 +20,4 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
 app.on('window-all-closed', () => app.quit());
+
