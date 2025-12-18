@@ -14,6 +14,9 @@ jobs:
       - name: 'Checkout repository'
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: npm install
+
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
@@ -22,6 +25,7 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D5E2A3FBAF024EE6A7D005515548C75D }}
+
 
 
 
