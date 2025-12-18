@@ -39,13 +39,14 @@
 	"showingFor": "Afficher {count} question(s) pour {code}",
 	"showingAll": "Afficher toutes les {count} questions",
     "incorrectLabel": "Faux.",
-	"correctLabel": "Correcte.",
+	"correctLabel": "Correct.",
     "yourAnswerLabel": "Votre réponse",
-    "correctAnswerLabel": "Réponse correcte",
+    "correctAnswerLabel": "Réponse correct",
 	"explanationLabel": "Explication",
     "notAnswered": "Sans réponse",
 	"scoreLabel": "Votre résultat",
 	"passedText": "RÉUSSI",
     "failedText": "ÉCHOUÉ"
    }
+
 }
