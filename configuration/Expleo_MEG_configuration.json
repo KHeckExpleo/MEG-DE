@@ -7,8 +7,9 @@
   "usedSyllabus_description": "Verwendetes Syllabus für die Prüfung, bzw. Thema der Prüfung: ISTQB Kurzbezeichnung",
   "usedSyllabus": "CT-AI",
   "usedQuestionCatalog_description": "Pfad und Datei mit den Prüfungsfragen",
-  "usedQuestionCatalog": "./exams/CT-AI-Pruefungsfragen_Probepruefung_fr.json",
+  "usedQuestionCatalog": "./exams/CT-AI-Pruefungsfragen_Probepruefung_de.json",
   "usedUI_description": "Pfad und Datei mit den UI-Texten",
-  "usedUI": "./configuration/Expleo_MEG_ui-text_configuration_fr.json"
+  "usedUI": "./configuration/Expleo_MEG_ui-text_configuration_de.json"
 }
+
 
