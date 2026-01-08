@@ -23,6 +23,7 @@
 				</div>	
                 </div>
 			</div>
+		<button id="feedbackBtn">Feedback</button>	
             <div class="header-right">
                 <div id="unanswered-container" style="display: none;">
                     <div class="unanswered-list">
@@ -120,6 +121,15 @@
 //      console.error('Fehler in der zentralen Steuerung:', error);
     }
   });
+
+  document.getElementById('feedbackBtn').addEventListener('click', () => {
+    const email = 'c3966b23.expleo.com@emea.teams.ms';
+    const subject = encodeURIComponent('Feedback Expleo SkillCheck');
+    const body = encodeURIComponent('Bitte geben Sie hier Ihr Feedback ein:\n\n');
+    const mailtoLink = `mailto:${email}?subject=${subject}&body=${body}`;
+    window.location.href = mailtoLink;
+  });
+
 </script>
 	<script Type="Module" src="Expleo_MEG_explanations.js"></script>        <!-- zeigt die Erklärung zur Antwort in der UI an -->
     <script Type="Module" src="Expleo_MEG_scripts.js"></script>
