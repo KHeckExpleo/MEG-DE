@@ -1,0 +1,1057 @@
+﻿[
+  {
+    "LearningObjective": "AI-1.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q1",
+        "QuestionText": "Which of the following statements provides the BEST example of the 'AI effect'?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "People are losing their jobs because AI-based systems perform their tasks more cheaply and more effectively.",
+          "b": "Competitive computer games are losing popularity because AI-based systems always win.",
+          "c": "Rule-based expert systems for medical diagnosis are no longer considered AI.",
+          "d": "People believe that AI will take over the world, as depicted in films."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - People in many professions could lose their jobs to AI-based systems, but this is simply progress and not the 'AI effect'. Compare the definition of AI effect in the CT-AI curriculum, chapter 1.1, paragraph 3.",
+          "b": "WRONG - The AI effect is not about comparing AI-based systems with the competition, but rather about the perception of what AI is. Compare the definition of AI effect in the CT-AI curriculum, chapter 1.1, paragraph 3.",
+          "c": "CORRECT - The 'AI effect' is defined as the change in the definition of AI as technology advances. Rule-based systems for medical diagnosis were popular examples of AI in the 1970s and 1980s, but are often not considered AI today. Compare CT-AI Curriculum, Chapter 1.1, Paragraph 2, second half.",
+          "d": "WRONG - The gullibility of moviegoers who believe that killer robots will take over the world is not the 'AI effect'. Compare CT-AI curriculum, chapter 1.1, paragraph 2 on competition in chess."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q2",
+        "QuestionText": "Which of the following is NOT a technology used to implement AI?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Support vector machines",
+          "b": "Decision trees",
+          "c": "TensorFlow",
+          "d": "Bayesian models"
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - Support vector machines are a form of machine learning. See CT-AI curriculum, chapter 1.4.",
+          "b": "WRONG - Decision trees are a form of machine learning. See CT-AI curriculum, chapter 1.4.",
+          "c": "CORRECT - TensorFlow is not an AI technology, but rather a specific AI development framework. See CT-AI curriculum, chapter 1.5, last bullet point.",
+          "d": "WRONG - Bayesian models are a form of machine learning. See CT-AI curriculum, chapter 1.4."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.6.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q3",
+        "QuestionText": "Which of the following statements about the hardware used to implement AI-based systems is most likely CORRECT?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The processors used to train a mobile recommendation system must be identical to the processors in the mobile phone.",
+          "b": "Graphics processing units (GPUs) are a good choice for implementing an AI-based image processing system.",
+          "c": "Deep learning systems must be trained, evaluated, and tested using AI-specific chips.",
+          "d": "It is always better to choose processors with more bits in order to achieve sufficient accuracy for AI-based systems."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - The two activities of training an ML model and inferencing from that model are quite different, so there is usually no reason to perform them on the same processors. See CT-AI Curriculum, Chapter 1.6, Paragraph 1.",
+          "b": "CORRECT - Graphics processing units are designed for parallel processing of images with thousands of cores, which is roughly equivalent to what is required for an AI-based computer vision system, which would most likely be implemented as a neural network. Compare CT-AI curriculum, chapter 1.6, paragraph 3, sentence 2.",
+          "c": "WRONG - It is still possible to train, evaluate, and perform testing on a simple deep learning system on a PC with limited GPU support - so no special chips are required for AI, but they would be much faster. Compare CT-AI curriculum, chapter 1.6, paragraph 1, sentences 1 and 2: Universal CPUs are also possible.",
+          "d": "WRONG - Many AI-based systems do not focus on exact calculations, but rather on probabilistic determinations, so the accuracy of processors with many bits is often unnecessary. Compare CT-AI curriculum, chapter 1.6, paragraph 2, bullet point 1."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-1.8.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q4",
+        "QuestionText": "Which of the following options describes a realistic risk for transfer learning of a new model based on a pre-trained model?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The data scientists tasked with this job do not know the required function of the new model.",
+          "b": "Transfer learning reduces the transparency of the reused parts of the pre-trained model.",
+          "c": "Distortions from the training of the pre-trained model could be adopted without being detected.",
+          "d": "Using the same data preparation steps for both models can result in different functional performances."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - The data scientists entrusted with the task are unlikely to be aware of the differences. See CT AI curriculum, chapter 1.8.3, bullet point 2. They should be very familiar with the function of the new (!) model. After all, that is their job. In this respect, it could well be a general risk. However, it is not specific to transfer learning.",
+          "b": "WRONG – The pre-trained model may lack transparency, and this deficiency may be carried over. This means that, overall, the transparency of the new model may be lower than that of a completely newly developed model. See CT AI curriculum, chapter 1.8.3, bullet points 1, 4, and 5. However, reuse has no effect on the (transparency of) the reused parts themselves.",
+          "c": "CORRECT - Inadequacies such as distortions in the pre-trained model may be adopted without being detected. See CT AI curriculum, chapter 1.8.3, bullet point 4.",
+          "d": "WRONG - Using different data preparation steps can result in different functional performance. See CT AI curriculum, chapter 1.8.3, bullet point 3. Using the same steps could result in deficiencies being carried over. However, this would not result in different functional performance."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-2.2.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q5",
+        "QuestionText": "Which of the following statements is MOST appropriate for specifying a requirement for the autonomy of an AI-based system?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The system must maintain a safe distance from other vehicles until the driver presses the brake or accelerator pedal.",
+          "b": "The system is designed to learn the preferred way of responding to emails by remotely monitoring email traffic.",
+          "c": "The system compares its predictions of house prices with actual sales prices to determine whether it needs to be retrained.",
+          "d": "It must be possible to change the behavior of the system in less than a day so that it works with different types of users."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - This requirement defines the human interventions that determine the end of the autonomously operating system. Compare CT-AI Curriculum, Chapter 2.2, Paragraph 3: 'In this curriculum, autonomy is considered to be the ability of the system to operate independently of human supervision and control for extended periods of time.",
+          "b": "WRONG - This requirement specifies a necessary function, namely how the system should operate in a self-learning manner. No reference is made here to whether the system should operate independently of humans. Compare CT-AI curriculum, chapter 2.2, paragraph 3.",
+          "c": "WRONG - This requirement specifies how the system handles concept deviation, which in this case is most likely caused by changes in the real estate market. No reference is made here to whether the system should operate independently of humans. Compare CT-AI curriculum, chapter 2.2, paragraph 3.",
+          "d": "WRONG - This is a requirement for adaptability - the maximum time that should be required for a change to the system. No reference is made here to whether the system should operate independently of humans. Compare CT-AI curriculum, chapter 2.2, paragraph 3."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-2.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q6",
+        "QuestionText": "Which of the following statements about biases in AI-based systems is NOT correct?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Bias can be caused by users of a book recommendation system making decisions that deliberately cause the system to make poor suggestions.",
+          "b": "The system for predicting the age at which employees will die may be distorted if the training data comes from a dataset of patients who are all retired.",
+          "c": "The use of training data derived from individuals who possess and utilize credit cards may lead to biases in the credit scoring system.",
+          "d": "The navigation system may be distorted by the use of a route planning algorithm that is too complex to explain to typical users."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - Bias can be caused by users deliberately poisoning the self-learning capabilities of an AI-based system. See 'Sampling bias' in CT-AI Curriculum, Chapter 2.4, Paragraph 3, Point 2.",
+          "b": "WRONG - Bias can occur if the training data does not accurately reflect the individuals to whom the system will be applied. For example, employees are typically younger than retired patients. See 'Sampling bias' in CT-AI Curriculum, Chapter 2.4, Paragraph 3, Bullet Point 2.",
+          "c": "WRONG - Bias can occur when the training data does not correctly reflect the individuals to whom the system will be applied. For example, most credit card users are already considered creditworthy, which is a typical example of sample bias. See 'Sample bias' in CT-AI Curriculum, Chapter 2.4, Paragraph 3, Point 2.",
+          "d": "CORRECT - If the algorithm cannot be explained, then it lacks explainability, but that does not mean that it is biased or unbiased or that there is distortion. Explainability can strengthen trust, see CT-AI Curriculum, Chapter 2.8, second bullet point, item 3."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-2.6.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q7",
+        "QuestionText": "Which of the following cases is MOST LIKELY an example of reward hacking?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The programmer assistant tool optimizes the code to reduce response times while ensuring that functional requirements are met.",
+          "b": "An anesthesia machine designed to keep patients stable during surgery delivers too many doses, and patients do not wake up as quickly as expected.",
+          "c": "The third-party development organization paid its AI programmers based on the number of lines of code they wrote.",
+          "d": "A type of AI used in computer games against humans and designed to achieve the highest score."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - It appears that the instrument achieves both of its objectives and has no adverse effects, so it is probably not 'reward hacking'. Reward hacking results in unexpected or even harmful functions, see CT-AI curriculum, chapter 2.7, sentence 1.",
+          "b": "CORRECT - This could be 'reward hacking' (see CT-AI curriculum, chapter 2.7, sentence 1) if the system achieves a goal to the detriment of others, in this case the need for patients to wake up.",
+          "c": "WRONG - Reward hacking is not a form of payment for AI developers. See CT-AI curriculum, chapter 2.7, sentence 1.",
+          "d": "WRONG - Some playful AI-based systems are controlled by a reward function, but this is not 'reward hacking', which involves unexpected or harmful outcomes, see CT-AI Curriculum, Chapter 2.7, Sentence 1."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-2.8.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q8",
+        "QuestionText": "Which of the following characteristics of an AI-based system are likely to cause difficulties if it is to be used in a safety-related area?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Probabilistic",
+          "b": "Explainable",
+          "c": "Interpretable",
+          "d": "Deterministic"
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Probabilistic - a clear problem for safety-related systems, see CT-AI curriculum, chapter 2.9 (actually 2.8, if 2.5 were not missing), bullet point 3 ",
+          "b": "WRONG - Explainable - usually required for safety-related systems and therefore not problematic, see CT-AI curriculum chapter 2.8, last bullet point 'Explainability'",
+          "c": "WRONG - Interpretable - usually required for safety-related systems and therefore not problematic, compare CT-AI curriculum chapter 2.8, penultimate bullet point 'Interpretability'",
+          "d": "WRONG - Deterministic - usually required for safety-related systems, see also CT-AI curriculum chapter 2.9, second bullet point 'Non-determinism', which describes a problem. Thus, determinism is not a problem."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-3.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q9",
+        "QuestionText": "Which of the following statements BEST describes classification and regression in the context of supervised learning?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Regression testing checks whether the test results of the ML model remain unchanged when the same test data is executed.",
+          "b": "Classification refers to the division of unlabeled data into a few predefined classes.",
+          "c": "Classification is the labeling of data for training the ML model.",
+          "d": "Regression is the prediction of the number of classes output by the ML model."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Regression in the context of supervised learning generally means that the ML model outputs a numerical result. Compare definition of regression in CT-AI curriculum, chapter 3.1.1, paragraph 2, bullet point 2, and paragraph 3.",
+          "b": "CORRECT - Classification involves categorizing the input data for an ML model into one of several predefined classes. Compare the definition of classification in the CT-AI curriculum, chapter 3.1.1, paragraph 2, bullet point 1.",
+          "c": "WRONG - Data must be labeled for supervised learning training, but this activity is not referred to as classification. Classification in the context of supervised learning generally means that the ML model assigns an input to one of a few predefined classes. Compare the definition of classification in the CT-AI curriculum, chapter 3.1.1, paragraph 2, bullet point 1.",
+          "d": "WRONG - Regression means that the output of the ML model is numerical, but the output is not a number of classes. An example of numerical output is predicting a person's age based on input data. Compare the definition of regression in the CT-AI curriculum, chapter 3.1.1, paragraph 2, bullet point 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-3.1.3",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q10",
+        "QuestionText": "Which of the following options BEST describes an example of reinforcement learning?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The mobile gaming app updates its feedback, response time, and the number of user options it offers depending on how much players spend.",
+          "b": "The language translation app searches the internet for texts in multiple languages to improve its translation function.",
+          "c": "The quality control system in the factory uses video cameras and audio analysis to identify defective products, which are monitored by a quality control employee.",
+          "d": "The system for predicting software component tests uses a series of quality metrics to determine which components are likely to contain the most errors."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - The amount spent can be considered the reward function for this system, whereby the system changes its behavior to increase the amount spent. Compare definition of reinforcement learning in CT-AI curriculum, chapter 3.1.3, paragraph 1.",
+          "b": "WRONG - The app uses text in a language that can be considered the source language and a 'correct' translation of this source. Text and translation form pairs of input data. The app is therefore based on a form of supervised learning, without any mention of a reward function. Compare the definition of supervised learning vs. the definition of reinforcement learning in the CT-AI curriculum, chapter 3.1.1, paragraph 1, and chapter 3.1.3, paragraph 1.",
+          "c": "WRONG - The system uses the human quality controller as a kind of 'gold standard' and thus relies on a form of supervised learning. Compare the definition of supervised learning vs. the definition of reinforcement learning in the CT-AI curriculum, chapter 3.1.1, paragraph 1, and chapter 3.1.3, paragraph 1.",
+          "d": "WRONG - There is no evidence that a reward function as used in reinforcement learning is employed. Instead, it is very likely that the prediction system bases its error determination on previous experiences. Therefore, it probably also relies on a supervised learning system. Compare the definition of reinforcement learning in the CT-AI curriculum, chapter 3.1.3, paragraph 1."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-3.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K3",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q11",
+        "QuestionText": "You have been asked for your opinion on the ML approach to be used for a new system that is part of traffic management for a SMART City. The idea is that the new system will control traffic lights in the city to ensure smooth traffic flow through and around the city.\nWhich of the following approaches do you think is MOST likely to succeed?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Unsupervised learning based on identifying clusters in the city where traffic density is above average",
+          "b": "A supervised learning regression solution based on thousands of trips, characterized by both trip length and duration.",
+          "c": "Reinforcement learning based on a reward function that penalizes solutions that lead to higher traffic congestion",
+          "d": "A supervised learning classification solution based on drivers and passengers specifying their preferred routes for traveling through the city"
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - The unsupervised learning system should be able to identify congested areas, but that alone does not solve the problem, as detecting congestion alone does not contribute to optimizing traffic flow. Compare the definition of unsupervised learning in the CT-AI curriculum, chapter 3.1.2, paragraph 1, and guidelines for selecting a type of ML in the CT-AI curriculum, chapter 3.3, bullet points 6-8.",
+          "b": "WRONG - It is unlikely that a regression solution will achieve the desired result, as the predicted speed of individual trips does not provide a comprehensive solution to citywide congestion. See the definition of regression in supervised learning in the CT-AI curriculum, chapter 3.1.1, paragraph 2, bullet point 2, and guidelines for selecting a type of ML in the CT-AI curriculum, chapter 3.3, bullet point 5.",
+          "c": "CORRECT - A continuously improving system of reinforcement learning with a reward function based on a lower level of overload as a measure of success is valid for this type of system. In addition, the system interacts with the environment via traffic light control. Compare the definition of reinforcement learning in the CT-AI curriculum, chapter 3.1.3, paragraph 1, and guidelines for selecting a type of ML in the CT-AI curriculum, chapter 3.3, bullet point 9.",
+          "d": "WRONG - This solution relies on volunteers providing subjective opinions, which will most likely result in a solution that changes repeatedly as the system adopts preferred routes that then become congested. Compare the definition of classification in supervised learning in the CT-AI Curriculum, Chapter 3.1.1, Paragraph 2, Bullet Point 1, and the guidelines for selecting a type of ML in the CT-AI Curriculum, Chapter 3.3, Bullet Point 4."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-3.5.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q12",
+        "QuestionText": "During testing of a trained model, an ML engineer noticed that the model was very accurate when evaluated with validation data, but performed poorly on independent test data.\nWhich of the following options was MOST LIKELY to cause this situation?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Maladjustment",
+          "b": "Concept drift",
+          "c": "over-adaptation",
+          "d": "Poor acceptance criteria"
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - The model performs well on the validation data, so this is not a case of underfitting. Compare the definition of underfitting in the CT-AI curriculum, chapter 3.5.2.",
+          "b": "WRONG - Concept drift refers to changes after the model training and validation phase. See explanations of concept drift in the CT-AI curriculum, chapter 7.6, paragraph 1.",
+          "c": "CORRECT - The poor performance on the independent test data and the good performance on the validation data suggest overfitting. Compare the definition of overfitting in the CT-AI curriculum, chapter 3.5.1.",
+          "d": "WRONG - Poor acceptance criteria should be consistent across different datasets, so that they are unlikely to cause a difference between test results with validation data and independent test data. This follows from the required equivalence of training, validation, and test datasets. See explanations on data sets in the ML workflow in the CT-AI curriculum, chapter 4.2, paragraph 1."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-4.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q13",
+        "QuestionText": "Which of the following examples is a challenge that may arise when developing and during testing of an ML solution?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Anonymizing data usually requires knowledge of various ML algorithms.",
+          "b": "The data used may be unstructured data.",
+          "c": "A large percentage of the budget is spent on data preparation alone.",
+          "d": "The scalability of the data pipeline is a challenge when training the model."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - No knowledge of ML algorithms is required to anonymize data. This is a challenge when procuring test data. Compare test data for testing AI-based systems in CT-AI Curriculum, Chapter 7.3, bullet point 3.",
+          "b": "WRONG - Unstructured data does not pose a challenge. Images, audio, and free-flowing text are all examples of unstructured data. Even data preprocessing, e.g., cleaning, conversion, or enrichment as part of data preparation, does not change the fundamental characteristic that the data is unstructured. See Data Preparation as Part of the ML Workflow in CT-AI Curriculum, Chapter 4.1, Section Data Preprocessing.",
+          "c": "CORRECT - Up to 43 % s of the effort required for ML workflows can be attributed to data preparation. Compare data preparation as part of the ML workflow in CT-AI Curriculum, Chapter 4.1, Paragraph 1, and challenges in data preparation in CT-AI Curriculum, Chapter 4.1.1, Bullet Point 4.",
+          "d": "WRONG - Scalability is typically a requirement when deploying the production data pipeline, not during training. Compare challenges in data preparation in CT-AI Curriculum, Chapter 4.1.1, bullet point 3, and differences between data pipelines for training and operation in CT-AI Curriculum, Chapter 7.2.1, paragraph 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-4.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q14",
+        "QuestionText": "Insufficient data is being used for training.\nWhich of the following options MOST CLOSELY indicates this data quality issue?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Training the model with the available data is particularly time-consuming. However, if part of the data set is not used for training, the training process will yield positive results more quickly.",
+          "b": "The model works correctly, but it gives too much weight to certain scenarios when making predictions.",
+          "c": "Real customer data is used to train the model, even though the customers have not given their consent.",
+          "d": "The model cannot be trained with a specific algorithm, even though other algorithms work with the same training data."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - Since training the model is particularly complex and therefore resource-intensive, this indicates irrelevant data in the dataset. If, on the other hand, the irrelevant data is not used during training, the training is completed more quickly. See explanation of irrelevant data in CT-AI curriculum, chapter 4.3, table 1, row 11.",
+          "b": "WRONG - This is a biased model, which can be caused by incomplete, unbalanced, unfair, insufficiently diverse, or duplicate data. See the explanation of biased models in the CT-AI curriculum, chapter 4.4, paragraph 2, bullet point 2.",
+          "c": "WRONG - Data protection issues were not taken into account here. See explanation of data protection issues in CT-AI curriculum, chapter 4.3, table 1, line 12.",
+          "d": "CORRECT - The fact that models based on some learning algorithms can be trained with the data, but that it does not work with a particular algorithm, is most likely due to the fact that the amount of data is insufficient for that particular algorithm. The minimum amount of data required for different algorithms may vary. See explanation of insufficient data in CT-AI curriculum, chapter 4.3, table 1, row 5."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-4.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q15",
+        "QuestionText": "DataSure is a start-up company with a product that promises to improve the quality of ML models. DataSure claims that this improvement is achieved by verifying that the data has been labeled correctly.\nWhich of the following defects could have been prevented MOST EFFECTIVELY by using this product?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The model has security vulnerabilities.",
+          "b": "The model has low accuracy.",
+          "c": "The model produces results that are perceived as unbalanced.",
+          "d": "The model produces distorted results."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Data privacy and security issues are not addressed. Therefore, the product will not prevent security issues. Compare data quality and its impact on the ML model in CT-AI Curriculum, Chapter 4.4, Paragraph 2, Bullet Point 3.",
+          "b": "CORRECT - Wrongly labeled data leads to lower accuracy of the ML model. Compare data quality and its impact on the ML model in CT-AI Curriculum, Chapter 4.4, Paragraph 2, Bullet Point 1.",
+          "c": "WRONG - A model that produces results that are perceived as unbalanced is the result of unfair data, not mislabeled data. See explanation of unfair data in CT-AI curriculum, chapter 4.3, table 1, row 9.",
+          "d": "WRONG - A distorted model is more likely to result from incomplete data, unbalanced data, unfair data, insufficient data diversity, or duplicate data than from mislabeled data. Compare data quality and its impact on the ML model in CT-AI Curriculum, Chapter 4.4, Paragraph 2, Bullet Point 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-4.5.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q16",
+        "QuestionText": "When an ML engineer determines that the training data is insufficient, they rotate labeled images to create additional training data.\nWhich of the following labeling approaches is used in this example?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Crowdsourcing",
+          "b": "Internal",
+          "c": "AI-supported",
+          "d": "Outsourced"
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Crowdsourcing means that a large number of people take on a specific task. In this case, only one person is performing the task. Compare the definition of crowdsourced in the CT-AI curriculum, chapter 4.5.1, paragraph 1, bullet point 3.",
+          "b": "CORRECT - Here, the ML developer enriches the already labeled data themselves, i.e., within the company responsible for data labeling. Compare the definition of internal labeling in the CT-AI curriculum, chapter 4.5.1, paragraph 1, bullet point 1.",
+          "c": "WRONG - AI is not used to label the data. Compare the definition of AI-assisted labeling in the CT-AI curriculum, chapter 4.5.1, paragraph 1, bullet point 4.",
+          "d": "WRONG - The ML engineer did not outsource the task to a third party. Compare the definition of outsourced labeling in the CT-AI curriculum, chapter 4.5.1, paragraph 1, bullet point 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-5.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K3",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q17",
+        "QuestionText": "Consider the following confusion matrix for an image classifier:\nConfusion matrix | Actually positive | Actually negative |\nPredicted positive | 78 | 22 |\nPredicted negative | 6 | 14 |.\nWhich of the following options represents the precision of the classifier?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "20/120 *100%",
+          "b": "78/120 *100%",
+          "c": "78/100 *100%",
+          "d": "22/100 *100%"
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - See answer c) for the correct formula and calculation.",
+          "b": "WRONG - See answer c) for the correct formula and calculation.",
+          "c": "CORRECT - The formula for precision = RP/(RP+FP)*100 % = 78/(78+22)*100% = 78/100*100 % (see section 5.1, third paragraph, second bullet point 'Precision').",
+          "d": "WRONG - See answer c) for the correct formula and calculation."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-5.2.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q18",
+        "QuestionText": "There are different functional performance metrics for different types of ML problems.\nWhich of the following statements is correct?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The area under the curve (AUC) shows how well the model fits the dependent variables.",
+          "b": "The mean square error (MSE) uses the measurement of the ROC curve to indicate how well the model distinguishes between different classes.",
+          "c": "The R-squared metric represents how well the classifier separates, i.e., how well the model distinguishes between classes.",
+          "d": "The silhouette value is based on the measurement of the average cross-cluster and intra-cluster distances of the data points."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - The area under the curve (AUC) represents the degree of separability of a classifier (see section 5.2, second paragraph, second bullet point). How well the model fits the dependent variables is assessed using the R-squared metric (see section 5.2, third paragraph, second bullet point).",
+          "b": "WRONG - The mean square error is the average of the squared differences between the actual value and the predicted value (see section 5.2, third paragraph, first bullet point). The area under the curve (AUC) shows how well the model distinguishes between different classes (see section 5.2, second paragraph, second bullet point).",
+          "c": "WRONG - The R-squared metric is used for supervised regression (see section 5.2, 3rd paragraph, 2nd bullet point) and not for classification problems, as shown by the area under the curve (AUC) (see section 5.2, 2nd paragraph, metrics for supervised classification, 2nd bullet point).",
+          "d": "CORRECT - see AI curriculum, section 5.2, 4th paragraph (metrics for unsupervised clustering), 3rd bullet point."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-5.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K4",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q19",
+        "QuestionText": "KnowYourPet is an app that uses ML to determine whether a pet is hungry or not. It assumes that a dog is not hungry most of the time, as indicated by the training data. If the dog is incorrectly classified as hungry, this can lead to overfeeding, which in turn can cause serious health problems.\nWhich of the following metrics would you choose to determine the suitability of the model under review?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Accuracy",
+          "b": "Precision",
+          "c": "Recall",
+          "d": "F1 grade"
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Accuracy (RP + RN) / (RP + RN + FP + FN) is not very useful if there is an imbalance between the expected classes, the non-hungry class (FP+RN) dominates in this case, and only large false-positive results FP are dangerous (overfeeding). Accuracy: See section 5.1, 3rd paragraph, 1st bullet point.",
+          "b": "CORRECT - The precision RP/(RP + FP) * 100% should be used, as the costs of false-positive results FP (overfeeding the dog) are high (serious health problems) and this only has a decisive effect on precision (see section 5.1, 3rd paragraph, 2nd bullet point).",
+          "c": "WRONG - Sensitivity is useful when considering the actual positive cases (RP+FN). In this case, however, the false positive cases (FP) are very important, which are not calculated at all in sensitivity (see section 5.1, third paragraph, third bullet point).",
+          "d": "WRONG - The F1 score is useful when there is an imbalance in the expected classes and when precision and sensitivity are equally important. In this case, however, precision is much more important than sensitivity (see explanations for answers b and c). F1 score: See section 5.1, third paragraph, fourth bullet point."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-6.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q20",
+        "QuestionText": "Which of the following options BEST describes a deep neural network?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "It consists of a hierarchical structure of neurons, with the lowest (deepest) neurons making most of the decisions.",
+          "b": "It consists of interconnected neurons, with each neuron having a bias and each connection having a weight.",
+          "c": "It consists of several layers, with each layer (except for the input and output layers) connected to every other layer, and errors propagating backward through the network.",
+          "d": "It consists of layers of neurons, each of which generates an activation value based on the other neurons in the same layer."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - A neural network does not have a hierarchical structure with a ranking from 'top' to 'bottom', but rather layers: input layer, output layer, and hidden layers in between. There is no rule regarding the number of decisions made by neurons in a layer (see section 6.1, third paragraph).",
+          "b": "CORRECT - An artificial neural network consists of interconnected neurons. To calculate an activation value, each neuron is assigned a bias and each connection is assigned a weight (see section 6.1, fifth paragraph).",
+          "c": "WRONG - A neural network consists of several layers, and errors are propagated backward through the network, but the layers of a neural network are only connected to the next layers - not to every other layer (see section 6.1, 4th paragraph).",
+          "d": "WRONG - A neural network consists of layers of neurons, but the activation value is based on the neurons in the previous layer - not in the same layer (see section 6.1, 5th paragraph)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-6.2.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q21",
+        "QuestionText": "Which of the following statements ACCURATELY describes a coverage criterion for neural networks?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The value change coverage is based on the fact that individual neurons influence the overall output of the neural network.",
+          "b": "The threshold coverage is based on neurons that output an activation value greater than a defined value.",
+          "c": "Neuron coverage is a measure of the proportion of neurons that are activated at any given time during the test.",
+          "d": "The sign change coverage measures the coverage of neurons that output positive, negative, and zero activation values."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Value change coverage is a measure of the proportion of activated neurons whose activation values differ by more than a specified amount of change. It does not refer to the overall performance of the neural network (see section 6.2, 4th paragraph, 4th bullet point).",
+          "b": "CORRECT - Threshold coverage measures the proportion of neurons that are activated during the test and whose value is greater than a specified threshold (see section 6.2, 4th paragraph, 2nd bullet point).",
+          "c": "WRONG - All neurons are potentially 'activated' each time a neural network is 'executed', but the values output by the neurons change, which is measured by the neuron coverage. Coverage is achieved by a value greater than zero (see section 6.2, 4th paragraph, 1st bullet point).",
+          "d": "WRONG - The sign change coverage is a measure of the proportion of neurons that are activated with both positive and negative activation values, but not with zero (see section 6.2, 4th paragraph, 3rd bullet point)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-7.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q22",
+        "QuestionText": "Which of the following requirements for an AI-supported system is MOST likely to pose a major challenge during testing?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The system must be more accurate than the system it replaces.",
+          "b": "The AI component of the system must be 100%ly accurate.",
+          "c": "A human operator should be able to override the system within 1 second.",
+          "d": "The system is designed to mimic the human emotions of a typical player."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - This is a specific requirement, whereby the system to be replaced serves as a test oracle. This should therefore not cause any problems during testing (for the definition of 'accuracy', see section 5.1, third paragraph).",
+          "b": "WRONG - This may be a difficult requirement to meet, but it is not a problem for the audit, as 'accuracy' is precisely defined and verifiable (see section 5.1, third paragraph).",
+          "c": "WRONG - This is a requirement that can be verified with performance testing (see section 4.5 in the CTAL-TTA - Technical Test Analyst curriculum).",
+          "d": "CORRECT - This requirement is extremely complex to test without defining all human emotions and the way in which the system could mimic them (see section 7.1, second paragraph, fourth bullet point)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-7.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K1",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q23",
+        "QuestionText": "Which of the following factors associated with test data can make testing AI-based systems difficult?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "High-speed acquisition of big data",
+          "b": "Procurement of data from a single source",
+          "c": "Excessive prioritization of checking for error states introduced into the data pipeline",
+          "d": "The unfairness of data (a subjective quality characteristic) can rarely be determined."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Acquiring data for AI systems that use large amounts of high-speed data can be difficult (see curriculum, chapter 7.3, first paragraph, first bullet point).",
+          "b": "WRONG - Obtaining high-quality data from various sources can be difficult (see curriculum, section 4.1.1, second bullet point). However, obtaining data from a single source should not pose any problems.",
+          "c": "WRONG - One challenge in data preparation is that 'checking for defects that are introduced into the data pipeline is not given sufficient priority' (see curriculum, section 4.1.1, penultimate (main) bullet point).",
+          "d": "WRONG - According to section 4.3, table 1, row 'Unfair data', the following applies: 'Fairness is a subjective quality characteristic, but can often be determined.'"
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-7.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q24",
+        "QuestionText": "Which of the following statements regarding automation bias is correct?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "In automation bias, humans test the system's recommendations against inputs from other sources.",
+          "b": "The attention of a human vehicle occupant has nothing to do with automation bias.",
+          "c": "Due to automation bias, the quality of human input must be tested, but not the quality of system recommendations.",
+          "d": "Human decisions may have lower quality if they have been recommended by an AI-based system."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - 'One form of automation bias is when people accept the system's recommendations and disregard input from other sources ...' (see section 7.4, first bullet point, first sentence).",
+          "b": "WRONG - The attention of a human vehicle occupant does indeed have something to do with automation bias, because according to the curriculum, chapter 7.4, second bullet point, third sentence, the following applies to the second form of automation bias: 'Typically, the human vehicle occupant gradually becomes too trusting of the system's ability to control the vehicle and begins to pay less attention.'",
+          "c": "WRONG - tester should 'perform testing on both the quality of the system recommendations and the quality of the corresponding human input by representative users' (section 7.4, last paragraph).",
+          "d": "CORRECT - 'It has been shown that 'the first 'form of automation' ('the human accepts the recommendations of the system') 'typically reduces the quality of decisions made by 5 %, but depending on the system context, this value can be much higher.' (Section 7.4, first bullet point, 1st and 3rd sentences)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-7.7.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K4",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q25",
+        "QuestionText": "An ML-based toll collection solution determines the type of vehicles entering the toll station based on images captured by a camera. Various camera types are available, and the solution provider claims to be able to use cameras with different resolutions. The images must be in JPEG format with a size of 320 x 480 pixels in order to train the model and predict the result. The model should be able to classify vehicle types with a certain desired high degree of accuracy and should be tested for vulnerabilities. Each toll station has its own complete system that is not connected to any other system.\nWhich of the following test types are the MOST suitable options for the tests you would choose for system testing?",
+        "AnswerOption": "Select TWO options. (2 out of 5)",
+        "Answers": {
+          "a": "Concept drift check",
+          "b": "Contradictory tests",
+          "c": "Testing of scalability",
+          "d": "Fairness test",
+          "e": "Data pipeline testing"
+        },
+        "CorrectAnswer": [
+          "b",
+          "e"
+        ],
+        "Explanation": {
+          "a": "WRONG - Concept drift is tested after implementation and focuses on a change in the operating environment. See CT AI curriculum, chapter 7.6. This is not relevant for the given scenario.",
+          "b": "CORRECT - Adversarial testing is important because the requirements state that the system should be tested for vulnerabilities. See CT AI Curriculum, Chapter 9.1.1: this concerns false predictions made by the system that are caused by attackers.",
+          "c": "WRONG - Scalability testing was not mentioned as one of the requirements. These are independent, interconnected systems that are not connected to other systems. Although this option is not explicitly ruled out, it does not have much to do with the question text and is therefore not one of the more likely options.",
+          "d": "WRONG - Fairness means that (positively) biased data is used for training. See CT AI Curriculum, Chapter 4.3. Since there is no known case of positive discrimination in the scenario described, the fairness test is not relevant.",
+          "e": "CORRECT - Testing the data pipeline is necessary because the images may be in different formats and resolutions. In order for the model to be trained, all images should have the same format, which is why this test is important. See CT AI Curriculum, Chapter 7.7, Table, Row 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-8.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q26",
+        "QuestionText": "Which of the following options describes a challenge for testing self-learning systems?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The system behavior can change so significantly that the test cases initially designed are no longer valid. This cannot be remedied even by a particularly clever test design.",
+          "b": "As part of the further development of the system, the acceptance criteria for system changes must also be developed in a self-learning manner.",
+          "c": "Since the operating environment of the self-learning system may change, tests must be designed that cover system behavior even without knowledge of the possible operating environments.",
+          "d": "Performing tests can influence the behavior of the self-learning system. Depending on the test cases used, undesirable changes in behavior may occur."
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - Designing test cases that remain valid even when system behavior changes is a challenge for testing. Compare CT AI curriculum, chapter 8.1, first bullet point.",
+          "b": "WRONG - The acceptance criteria for changes to the self-learning system must be defined in advance. The acceptance of each system change is controlled by these criteria. If these criteria also change over time, future system changes may no longer force positive changes, but rather negative ones. Compare CT AI curriculum, chapter 8.1, second bullet point.",
+          "c": "WRONG - The goal is not to design a test design without knowledge of the deployment environment. That would enable potential attacks through data corruption. Instead, the goal must be to cover all deployment environments or to specify acceptance criteria for all possible changes to the deployment environment. See CT AI Curriculum, Chapter 8.1, fifth bullet point.",
+          "d": "CORRECT - Undesirable behavioral changes are a challenge during testing of self-learning systems. Compare CT AI curriculum, chapter 8.1, seventh/last bullet point."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-8.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q27",
+        "QuestionText": "Which of the following options describes a valid test for bias?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Review of the source of training data and data collection methods to identify algorithmic biases",
+          "b": "Measurement of the influence of system inputs on outputs, with a focus on individuals for or against whom the system is inappropriately biased.",
+          "c": "Obtaining additional information about the input data in order to test the preprocessing of the data for distortions",
+          "d": "Review of activities related to training or optimizing the model in order to identify sampling biases"
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - When reviewing the source of the training data and the data collection methods, sampling biases are the main issue found. See CT AI Curriculum, Chapter 8.3, Key Points 1 and 2.",
+          "b": "CORRECT - This option describes a valid test for distortions. Compare CT AI curriculum, chapter 8.3, point 4.",
+          "c": "WRONG - Obtaining additional information can be useful for finding 'hidden' variables that are relevant for assessing bias but do not themselves constitute model input (see CT AI curriculum, Chapter 8.3, point 5). Reviewing the pre-processing of data can be useful (see CT AI curriculum, chapter 8.3, point 3). However, the 'hidden' variables obtained from additional information cannot influence the pre-processing of data that has already been implemented, as they are not processed at all. Therefore, this option is illogical in itself.",
+          "d": "WRONG - Reviewing the activities related to training or optimizing the model primarily reveals algorithmic biases. See CT AI curriculum, chapter 8.3, bullet points 1 and 2."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-8.5.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q28",
+        "QuestionText": "Which of the following options describes a challenge in testing complex, AI-based systems?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The test oracle problem in this context states that AI-based systems often find a worse test oracle than human testers.",
+          "b": "Due to the complexity of the behavior, only white-box test technique are useful; black-box test techniques are no longer viable.",
+          "c": "The complexity of AI-based systems and their testing increases when these systems operate probabilistically and are non-deterministic.",
+          "d": "The complexity of AI-based systems and their testing does not increase simply because the systems consist of several interacting components."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "WRONG - The problem with this test oracle is that the behavior of such systems is too complex for humans to understand in sufficient depth to derive a test oracle from it. See CT-AI curriculum, chapter 8.5, paragraph 1.",
+          "b": "WRONG - The opposite is true. Since the structure of such systems is often generated automatically, it is too complex to derive meaningful white-box testing from it. Therefore, black-box testing is often the only useful option. See CT-AI curriculum, chapter 8.5, paragraph 2.",
+          "c": "CORRECT - Probabilistic results and non-determinism increase the complexity of systems and thus also of the testing for them. See CT-AI curriculum, chapter 8.5, paragraph 3.",
+          "d": "WRONG - See CT-AI Curriculum, Chapter 8.5, Paragraph 4: 'The problems with non-deterministic systems are exacerbated when an AI-based system consists of multiple interacting components...'"
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-8.8.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K4",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q29",
+        "QuestionText": "The Department of Health is using an AI-based system to identify vulnerable patient groups who should be supported and advised to prevent them from suffering from diseases to which they are susceptible in the future. The results are also made available to other government agencies and health insurance companies. The system is initially trained using a comprehensive data set collected by the Department of Health in two surveys of 5,000 men over the age of 50 and 25,000 women over the age of 30. The system will continue to identify vulnerable patients by collecting information from publicly accessible social media.\nWhich of the following attributes should be considered MOST CAREFULLY when defining the objectives and acceptance criteria for the system?",
+        "AnswerOption": "Select TWO options. (2 out of 5)",
+        "Answers": {
+          "a": "Adaptability",
+          "b": "Prejudice",
+          "c": "Explainability",
+          "d": "Flexibility",
+          "e": "Autonomy"
+        },
+        "CorrectAnswer": [
+          "b",
+          "c"
+        ],
+        "Explanation": {
+          "a": "WRONG - adaptability is the ability of the system to be changed (usually to continue to meet functional and non-functional requirements). See CT-AI Curriculum, Chapter 8.8, Table, Row 1. There is no reason apparent from the scenario to believe that the operating environment for the system will change significantly, and therefore no reason to believe that the system will need to be changed.",
+          "B": "CORRECT - Distortion means, for example, that the data used for training is distorted. See CT-AI curriculum, chapter 8.8, table row 6, and chapter 8.3. There is a bias in the data with regard to biological gender (25,000 women versus 5,000 men) and certain age groups. Therefore, the bias must be carefully taken into account.",
+          "C": "CORRECT – Explainability is required when the results could have a significant impact on the identified at-risk patients, both medically and financially. Explainability allows possible correlations between income and output to be established. See CT-AI Curriculum, Chapter 8.6, Paragraph 4 and Chapter 8.8. They should be able to see why they may have been classified as at risk so that they can ensure that they have been selected correctly and as part of the explainability requirements related to data protection.",
+          "d": "WRONG - Flexibility is the ability of a system to change its behavior. See CT-AI Curriculum, Chapter 8.8, Table, Row 2. However, at this point in time, based on the scenario, there is no reason to believe that this system will need to be used outside of its original specification, so it is not expected that its behavior will need to be changed.",
+          "e": "WRONG - Autonomy is the ability of the system to decide for itself whether human intervention is necessary. See CT-AI Curriculum, Chapter 8.2, Paragraph 1. There is no reason to assume that the system must be able to operate without intervention for extended periods of time or make a decision regarding the necessity of human intervention."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q30",
+        "QuestionText": "Which of the following options describes a valid relationship between testing ML systems and preventing adversarial attacks or data corruption?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Adversarial testing consists of finding and fixing vulnerabilities by carrying out adversarial attacks.",
+          "b": "Comparative testing can be used to find incidents between the previous version of the system and the new version.",
+          "c": "Once hostile examples have been identified, they must be prevented from coming into contact with the system, e.g., by means of a firewall.",
+          "d": "Since AI-based systems are constantly learning and adapting their behavior, the use of regression testing is not useful."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - See CT-AI curriculum, chapter 9.1.1, last paragraph.",
+          "b": "WRONG - Comparative testing is used when an alternative version of the system is to be used as a pseudo-oracle (possibly already existing or developed by another team). See CT-AI curriculum, chapter 9.3, paragraph 1. However, in this case, versions of the same system are to be compared. These are therefore A/B tests. See CT-AI Curriculum, Chapter 9.1.2, last paragraph.",
+          "c": "WRONG - The identified examples are added to the training data so that the system can learn how to handle them. See Chapter 9.1.1, last paragraph.",
+          "d": "WRONG - With an appropriately reliable test suite, it is entirely possible to determine whether a system has been compromised. Compare CT-AI curriculum, chapter 9.1.2, last paragraph, last sentence."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.2.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q31",
+        "QuestionText": "For which of the following situations is pairwise testing MOST suitable?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "With a large number of software testers for AI-based systems",
+          "b": "With a large number of system components in the AI-based system",
+          "c": "With a high number of test cases for the AI-based system",
+          "d": "With a very high number of parameters for the AI-based system"
+        },
+        "CorrectAnswer": "d",
+        "Explanation": {
+          "a": "WRONG - Pairwise testing refers to a large number of parameters that are of interest to the AI-based system. See CT-AI curriculum, chapter 9.2, paragraphs 1 and 3. The number of testers is irrelevant in this context. Although pair programming may involve the use of several developers/testers on the same PC, this is not/very rarely due to an excessive number of testers.",
+          "b": "WRONG - Pairwise testing refers to a large number of parameters that are of interest to the AI-based system. See CT-AI Curriculum, Chapter 9.2, Paragraphs 1 and 3. The number of system components is irrelevant in this context.",
+          "c": "WRONG - Pairwise testing refers to a high number of parameters that are of interest to the AI-based system. See CT-AI curriculum, chapter 9.2, paragraphs 1 and 3. A high number of test cases is irrelevant here. d) CORRECT - See CT-AI curriculum, chapter 9.2, paragraph 1, paragraph",
+          "d": "CORRECT - See CT-AI curriculum, Chapter 9.2, Paragraph 1, Paragraph 3. Pairwise testing refers to a high number of parameters."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q32",
+        "QuestionText": "A test manager decides to build a non-AI system with similar functionality to the AI-based system under test (SUT) to support system testing.\nWhich of the following statements is MOST CORRECT?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The test manager opted for back-to-back testing because it solves the test oracle problem by using a pseudo oracle.",
+          "b": "The test manager opted for A/B testing because it solves the test oracle problem by using a pseudo-oracle.",
+          "c": "The test manager opted for back-to-back tests because the non-functional requirements of the SUT can be verified using the pseudo-oracle.",
+          "d": "The test manager opted for A/B testing because the non-functional requirements of the SUT can be verified using the pseudo oracle."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - This is an example of comparative testing, in which the non-AI system is used as a pseudo-oracle. See CT AI curriculum, chapter 9.3, paragraph 1: 'In comparative testing, an alternative version of the system is used as a pseudo-oracle.'",
+          "b": "WRONG - In A/B testing, we use a variant of the SUT to compare with the SUT. See CT AI Curriculum, Chapter 9.4, last paragraph: 'In A/B testing, two variants of the same system are usually compared with each other'. Here, we only have two systems with similar functionality. They are so different that one is an AI-based system and the other is not AI-based.",
+          "c": "WRONG - The resources and non-functional characteristics of the pseudo-oracle and the SUT are likely to be different, so the alternative system cannot be used for non-functional testing. In back-to-back-testing, the performance of the two systems may be very different. See CT-AI Curriculum, Chapter 9.3, Paragraph 1, last sentence: 'For example, it does not have to run as fast...'",
+          "d": "WRONG - In A/B testing, we use a variant of the SUT to compare with the SUT. See CT AI Curriculum, Chapter 9.4, last paragraph: 'In A/B testing, two variants of the same system are usually compared with each other'. Here, we only have two systems with similar functionality. They are so different that one is an AI-based system and the other is not AI-based."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.5.1",
+    "LearningObjectiveDescription": "Anwenden von metamorphem Testen für das Testen KI-basierter Systeme",
+    "KnowledgeType": "K3",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q33",
+        "QuestionText": "An AI-supported mobile phone recommendation system provides a list of mobile phones based on its knowledge of the user's specified preferences, i.e. the largest possible display, the largest possible memory and long battery life. The system specifies an acceptable price for each combination of these factors.\nThree initial test cases (T1 to T3) are used for testing the mobile phone recommendation system. In addition, new test cases A to D are proposed.\nT1 | T2 | T3\nDisplay diagonal | 4 inches | 4 inches | 5 inches\nMemory size | 8 GB | 16 GB | 8 GB\nBattery life | 36 hours | 24 hours | 16 hours\n<: €200 | >: €250 | >: €220\nTest A | Test B | Test C | Test D\nDisplay diagonal | 4 inches | 4 inches | 5 inches | 5 inches\nMemory size | 8 GB | 16 GB | 8 GB | 8 GB\nBattery life | 24 hours | 30 hours | 20 hours | 24 hours\n<: €200 | >: €250 | >: €220\nWhich of the new tests are follow-up test cases for metamorphic testing?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "A and B are follow-up test cases; C and D are not follow-up test cases.",
+          "b": "A and C are follow-up test cases; B and D are not follow-up test cases.",
+          "c": "A, B, C are follow-up test cases; D is not a follow-up test case.",
+          "d": "B, C, D are follow-up test cases; A is not a follow-up test case."
+        },
+        "CorrectAnswer": "c",
+        "Explanation": {
+          "a": "",
+          "b": "",
+          "c": "Answer c) is CORRECT; the other answers are wrong because:\n1. A, B and C are follow-up test cases.\n2. D is not a follow-up test case.\nThe metamorphic relationships are: an increase in the input values (display diagonal, memory size, battery life) indicates better mobile phone features and increases the acceptable price.\nTest A is a follow-up test case derived from T1. Compared to T1, the battery life is shorter (30 hours instead of 36 hours) – with all other values remaining the same. Test A is not comparable with T2 and T3. Therefore, the acceptable price is no higher than that of T1, i.e. £200.\nTest B is a follow-up test case. It is derived solely from T2, as it has a longer battery life (30 hours instead of 24 hours) compared to T2, with all other values remaining the same. Test B is not comparable with T1 and T3. Therefore, the acceptable price is at least as high as for T2, i.e. at least £250.\nTest C is a follow-up test case. It is not comparable with tests T1 and T2. The mobile phone sizes are comparable with T3: the display size and memory are the same, and the battery life is longer at 20 hours than with T3 (16 hours). Therefore, the acceptable price is at least as high as for T3, i.e. at least £220.\nTest D is not a follow-up test case. It is not comparable with tests T1 and T2. The mobile phone sizes are comparable to T3: the display size and memory are the same, and the battery life is longer than that of T3 (24 hours compared to 16 hours). Therefore, the acceptable price is at least as high as for T3, i.e. at least £220, and not a maximum of £200, as stated in Test D.",
+          "d": ""
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.6.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q34",
+        "QuestionText": "Which of the following statements about AI-based systems is a correct statement with regard to experience-based testing?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "In exploratory testing, the training data is visualized using tools to examine various aspects of the data.",
+          "b": "In intuitive test case determination, existing test cases are dynamically adapted, for example, based on metamorphic testing.",
+          "c": "Google's 'ML Test Checklist' is used for exploratory testing, among other things.",
+          "d": "Experience-based testing requires the calculation of ML functional performance metrics."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - This is an exploratory data analysis, which is an exploratory method (see section 9.6, fifth paragraph, last two sentences).",
+          "b": "WRONG - This is an approach used in exploratory testing (see section 9.6, third paragraph). Error guessing, on the other hand, is based on testers' knowledge of typical developer errors and error effects in similar systems (see section 9.6, second paragraph).",
+          "c": "WRONG - This is a checklist-based testing (see section 9.6, first and sixth paragraphs). Exploratory testing does not use checklists (see section 9.6, third paragraph).",
+          "d": "WRONG - Calculating ML functional performance metrics (see Chapter 5) is important for assessing the quality of an AI system, but has nothing to do with experience-based testing (see Chapter 9.6)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-9.7.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K4",
+    "Details": [
+      {
+        "QuestionPoints": "2",
+        "QuestionId": "q35",
+        "QuestionText": "LAIgal Systems has an AI-based product for extracting relevant favourable judgements that are similar to a specific legal case. This product is used by judges in courts. The details of the current case are provided, and the system generates corresponding judgements. The system must be secure against malicious input. A similar open-source product exists and is available. The lack of a suitable test oracle poses a challenge when testing.\nWhich of the following test techniques should be selected to perform testing on the new version during system testing?",
+        "AnswerOption": "Select TWO options. (2 out of 5)",
+        "Answers": {
+          "a": "A/B testing",
+          "b": "Back-to-back tests",
+          "c": "Contradictory tests",
+          "d": "Checking state transitions",
+          "e": "Calculation of functional ML performance indicators"
+        },
+        "CorrectAnswer": [
+          "b",
+          "c"
+        ],
+        "Explanation": {
+          "a": "WRONG - A/B testing is most useful when two variants are compared to decide whether the new variant is an improvement over the older variant (see section 9.7, first paragraph, second bullet point). However, in this case, we are dealing with different versions.",
+          "b": "CORRECT - In back-to-back-testing, an equivalent system is used as a pseudo-oracle for testing (see section 9.7, first paragraph, first bullet point). This is a similar open-source product.",
+          "c": "CORRECT - Adversarial testing is important here, as the system must be secure against adversarial inputs (see section 9.1.1, last paragraph).",
+          "d": "WRONG - State transition testing (see section 4.2.4, CTFL Curriculum V3.1D) could be useful, but nothing in the scenario indicates that system states play a significant role. Therefore, this test technique should not be selected.",
+          "e": "WRONG - The calculation of functional performance metrics of ML is appropriate in the model verification phase for classification problems (see section 5.1). For non-classification problems, it is not appropriate in the system testing phase."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-10.1.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q36",
+        "QuestionText": "Which of the following statements is an example of a difference between a test environment for AI-based systems and a test environment for conventional systems?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "Test environments for AI-based systems may require a mechanism to determine how a particular decision is made. This is not required for conventional systems.",
+          "b": "Test environments for AI-based systems require simulators and virtual environments, whereas conventional systems do not.",
+          "c": "Test environments for AI-based systems require large amounts of data, whereas conventional systems do not require large amounts of data.",
+          "d": "Test environments for AI-based multi-agent systems may need to be non-deterministic, but test environments for conventional multi-agent systems do not."
+        },
+        "CorrectAnswer": "a",
+        "Explanation": {
+          "a": "CORRECT - Explanatory mechanisms may need to be provided for AI environments - if it is difficult to determine how the system made its decisions (see section 10.1, 4th bullet point).",
+          "b": "WRONG - Conventional systems often require simulators and virtual environments (see section 10.2).",
+          "c": "WRONG - Even conventional systems can require large amounts of data (see section 10.1, last bullet point).",
+          "d": "WRONG - Non-determinism of the test environment may be necessary for AI systems in accordance with section 10.1, third bullet point; however, this also applies to conventional multi-agent systems, as there may be unpredictable time delays."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-11.2.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q37",
+        "QuestionText": "Which of the following statements regarding the use of AI to analyze new errors is MOST accurate?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "A small number of error states in a new application can be categorized well using a suitable ML approach.",
+          "b": "If a large number of error states are reported in a small application, error triage can optimize the time required to resolve the errors.",
+          "c": "AI-based categorization of errors is not useful for automated error reporting systems and large projects.",
+          "d": "For a new development team, ML models can suggest which developer is best suited to fix specific bugs."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - If a small number of errors need to be categorized and no historical data is available, training data cannot be used in an ML approach (see section 3.3, first bullet point).",
+          "b": "CORRECT - If a large number of defect states are reported for a small application, it is highly likely that there is a benefit to be gained from identifying duplicates and thus optimizing the time required for troubleshooting (see section 11.2, first paragraph and first bullet point, 'Error triage').",
+          "c": "WRONG - AI-based categorization of errors is particularly useful for automated error reporting systems and large projects (see section 11.2, first bullet point, last sentence).",
+          "d": "WRONG - In order for ML models to recommend the developer who is best suited to fix certain bugs, they would need to have access to previous/historical data on the content of bug reports and developer assignments (see section 11.2, last bullet point 'Assignment')."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-11.3.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q38",
+        "QuestionText": "Which of the following statements about AI-based test case generation is correct?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "The basis for the AI-based creation of test cases is the source code, not a machine-readable test model.",
+          "b": "The test oracle problem in AI-based test case generation can be solved by testing.",
+          "c": "For AI-generated functional test cases, predictable results are always available.",
+          "d": "Research shows that AI-based test case generation tools do not achieve the same level of coverage as fuzz testing tools."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - The basis for the AI-based creation of test cases is the source code and a machine-readable test model (see section 11.3, first paragraph, second sentence).",
+          "b": "CORRECT - The test oracle problem in AI-based test case generation is solved by testing if a suitable system is available that can be used as a pseudo-oracle (see section 11.3, second paragraph, second sentence).",
+          "c": "WRONG - 'However, if no test model defining the required behaviors is used as a basis for the test cases, test case generation generally suffers from a test oracle problem, as the AI-based tool does not know what results to expect for a given set of test data.' (Section 11.3, 2nd paragraph, 1st sentence).",
+          "d": "WRONG - Research comparing AI-based test case generation tools with similar fuzz testing tools shows that AI-based tools achieve an equivalent degree of coverage (see section 11.3, third paragraph, first sentence)."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-11.4.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q39",
+        "QuestionText": "Which of the following options CORRECTLY states how an AI-based tool can optimize regression test suites?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "By analyzing wrong positive test results",
+          "b": "By analyzing information from previous testing activities",
+          "c": "By using genetic algorithms to create new test cases",
+          "d": "By updating the expected results to counteract the concept deviation"
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - The goal of optimizing regression testing is to reduce the scope of a test suite, set priorities, or expand it (see section 11.4, first paragraph), but not to reduce the number of false positives.",
+          "b": "CORRECT - Regression test suites are optimized by analyzing information about previous test executions (see section 11.4, second paragraph).",
+          "c": "WRONG - According to section 11.4 of the curriculum, regression testing is usually optimized based on data from previous test runs (see section 11.4, second paragraph). However, using genetic algorithms to create new tests does not optimize the regression testing suite.",
+          "d": "WRONG - Concept drift refers to a change in the software's operating environment (see section 7.6). If the software has been modified as a result, additional regression test cases are required. However, this does not lead to an optimization of the regression test suite."
+        }
+      }
+    ]
+  },
+  {
+    "LearningObjective": "AI-11.5.1",
+    "LearningObjectiveDescription": "tbd",
+    "KnowledgeType": "K2",
+    "Details": [
+      {
+        "QuestionPoints": "1",
+        "QuestionId": "q40",
+        "QuestionText": "Which of the following options accurately describes how or for what purpose an AI-based test tool can predict errors?",
+        "AnswerOption": "Select ONE option. (1 out of 4)",
+        "Answers": {
+          "a": "By analyzing anomalies in source code metrics—such as the number of lines of code and cyclomatic complexity—errors can be predicted.",
+          "b": "The prediction of error states based on previous experience with the same code base or developers should be done using an AI-based approach.",
+          "c": "By analyzing false positive test results observed in the past, errors can be predicted.",
+          "d": "Immature test tools are also suitable for prioritizing the testing of components that contain more defects than others, provided they are AI-based."
+        },
+        "CorrectAnswer": "b",
+        "Explanation": {
+          "a": "WRONG - Source code metrics such as the number of lines of code and cyclomatic complexity are not the best predictors for forecasting errors (see section 11.5, third paragraph, second sentence).",
+          "b": "CORRECT - Error prediction is performed by AI-based search for correlations between code/process/personnel metrics and errors in the same code base or with the same developers (see section 11.5, second paragraph).",
+          "c": "WRONG - The goal of fault prediction is not to identify faults with a false-positive result, but rather to determine how many defect states exist and whether they can be found (see section 11.5, first paragraph).",
+          "d": "WRONG - 'The results of fault prediction are typically used to set priorities for testing (e.g., more testing for components for which more defect conditions are predicted).' 'This capability depends on the maturity of the tool used.' (see section 11.5, 1st paragraph, 3rd and 2nd sentences)."
+        }
+      }
+    ]
+  }
+]
